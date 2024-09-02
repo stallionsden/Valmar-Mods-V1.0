@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Valmar>
+
+	<append xpath="/lootcontainers/lootgroup[@name='rareFoodDrink']">
+  	<item name="Biscuit Recipe" loot_prob_template="veryLow"/>
+  	<item name="Biscuit With Jam Recipe" loot_prob_template="veryLow"/>
+  	<item name="Ramen Soup Recipe" loot_prob_template="veryLow"/>
+	</append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='booksRareOnlyScaled']">
+    <item name="Bacon Egg Sandwich Recipe" count="0,1" loot_prob_template="veryLow"/>
+    <item name="Fish Pie Recipe" count="0,1" loot_prob_template="veryLow"/>
+	<item name="Grill Steak Recipe" count="0,1" loot_prob_template="veryLow"/>
+  </append>
+
+  <append xpath="/lootcontainers/lootgroup[@name='groupSchematicsAll']">
+    <item name="Hamburger Recipe" count="0,1" loot_prob_template="veryLow"/>
+    <item name="Honey Ham Recipe" count="0,1" loot_prob_template="veryLow"/>
+	<item name="Grill Steak Sandwich Recipe" count="0,1" loot_prob_template="veryLow"/>
+	<item name="Health Drink Recipe" count="0,1" loot_prob_template="veryLow"/>
+  </append>
+  
+  <append xpath="/lootcontainers/lootgroup[@name='groupCupboard01']">
+    <item name="Bag Of Hot Chips" count="0,1" loot_prob_template="veryLow"/>
+    <item name="Bag Of Chips" count="0,1" loot_prob_template="veryLow"/>
+	<item name="Candy Bar" count="0,1" loot_prob_template="veryLow"/>
+	<item name="Ramen Noodles" count="0,1" loot_prob_template="veryLow" />
+	<item name="bowl" count="0,1" loot_prob_template="low" />
+	<item name="dinnerPlate" count="0,1" loot_prob_template="low" />
+	<item name="Clingwrap" count="0,4" loot_prob_template="veryLow" />
+  </append>
+  
+  <append xpath="/lootcontainers/lootgroup[@name='groupCookingTools']">	
+		<item name="theBBQSchematic" count="0,1" loot_prob_template="veryLow" />
+	</append>	
+	<append xpath="/lootcontainers/lootgroup[@name='groupGrills']">	
+			<item name="activatedCarbon" count="0,5" loot_prob_template="veryLow" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupFoodTrashUncommon']">	
+			<item name="activatedCarbon" count="0,5" loot_prob_template="veryLow" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='cannedfood']">	
+			<item name="activatedCarbon" count="0,5" loot_prob_template="veryLow" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='shamwaySafeFiller']">	
+			<item name="activatedCarbon" count="0,5" loot_prob_template="veryLow" />
+			<item name="bowl" count="0,3" loot_prob_template="low" />
+			<item name="dinnerPlate" count="0,3" loot_prob_template="low" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupRottenChest01']">	
+		<item name="bowl" count="0,1" loot_prob_template="medLow" />
+		<item name="dinnerPlate" count="0,1" loot_prob_template="medLow" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupJunk01']">	
+		<item name="bowl" count="0,1" loot_prob_template="med" />
+		<item name="dinnerPlate" count="0,1" loot_prob_template="med" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupBackpacks01']">	
+			<item name="bowl" count="0,1" loot_prob_template="low" />
+			<item name="dinnerPlate" count="0,1" loot_prob_template="low" />
+	</append>
+</Valmar>

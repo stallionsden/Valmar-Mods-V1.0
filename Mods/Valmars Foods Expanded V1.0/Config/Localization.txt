@@ -1,0 +1,76 @@
+Key,Source,Context,Changes,English
+stripsClingwrap,items,Food,,,Clingwrap,,
+sealedMeat,items,Food,,,Sealed Meat,,
+sealedShamSandwich,items,Food,,,Sealed ShamSandwich,,
+sealedRottingFlesh,items,Food,,,Sealed Rotting Flesh,,
+sealedAnimalFat,items,Food,,,sealed Animal Fat,,
+Hamburger,items,Food,,,Hamburger,,
+VMARHAMBURGERDesc,items,Food,,,It Has a good smell and looks tasty.
+VMARbaconEggSandwichDesc,items,Food,,,You made this good looking sandwich.
+VMARFishPieDesc,items,Food,,,The Can of Tuna Maybe rotten but you did a good job making this food!
+VMARHoneyHamDesc,items,Food,,,MmmHH Very good meal.
+VMARGrillSteakDesc,items,Food,,,Better then Grilled meat.
+VMARGrillSteakSandwichDesc,items,Food,,,You Made the Steak Even Better!
+VMARCANDYBARDesc,items,Food,,,This Candy not give you any benefits like the others but you will not gonna starve to death!
+VMARBiscuitDesc,items,Food,,,Handmade Biscuit Not the best But you cant die in starve.
+VMARBiscuitjamDesc,items,Food,,,Handmade Biscuit with jam Not the best But you cant die in starve.
+VMARRAMENNDesc,items,Food,,,You Can make this into a soup or you can eat it.
+VMARRamenSoupDesc,items,Food,,,Nice you made a bowl of Ramen Soup Not the best if you ask me.
+VMARHEalthDRINKDesc,items,Food,,,Drink This and Gain Your Health and Energy Back!
+TheWeber9000,blocks,Container,KgNone,The Weber 9000
+bowl,items,Item,,,Clay Bowl,,,,,
+bowlDesc,items,Item,,,Use clay bowls for cooking stews and other various foods.,,,,,
+bowlMurkyWater,items,Item,,,Bowl of Murky Water,,,,,
+bowlMurkyDesc,items,Item,,,This bowl is full of murky water. Boil it or use purification tablets to clean it.,,,,,
+bowlWater,items,Item,,,Bowl of Water,,,,,
+bowlWaterDesc,items,Item,,,A bowl of clean water. Great for making food but could be drunk if in a pinch.,,,,,
+blueberryJam,items,Food,,,Blueberry Jam,,,,,
+blueberryJamDesc,items,Food,,,Delicious blueberry jam.,,,,,
+canChunkyMeatStew,items,Food,,,Canned Chunky Meat Stew,,,,,
+cannedChunkyMeatStewDesc,items,Food,,,This quickly canned stew is great for hiding the smell of food from nearby zombies.,,,,,
+canMeatStew,items,Food,,,Canned Meat Stew,,,,,
+canVegetableStew,items,Food,,,Canned Vegetable Stew,,,,,
+stewChunkyMeat,items,Food,,,Chunky Meat Stew,,,,,
+stewChunkyMeatDesc,items,Food,,,This stew is full of chunky meats making it very fulfilling if not very healthy.,,,,,
+bowlFruit,items,Food,,,Bowl of Fruit,,,,,
+bowlFruitDesc,items,Food,,,This bowl of fruit may not be very filling but its very healthy for you.,,,,,
+cornbreadJam,items,Food,,,Cornbread and Jam,,,,,
+cornbreadJamDesc,items,Food,,,This cornbread has been smeared with a nice layer of blueberry jam.,,,,,
+warmBowlDesc,items,Food,,,This bowl of fruit may not be very filling but its very healthy for you.,,,,,
+soupChunkyBeef,items,Food,,,Chunky Beef Soup,,,,,
+soupChicken,items,Food,,,Chicken Soup,,,,,
+soupLamb,items,Food,,,Lamb Soup,,,,,
+bowlChili,items,Food,,,Bowl of Chili,,,,,
+bowlMiso,items,Food,,,Bowl of Miso,,,,,
+soupPea,items,Food,,,Pea Soup,,,,,
+bowlPasta,items,Food,,,Bowl of Pasta,,,,,
+bowlSoup,items,Food,,,Bowl of Soup,,,,,
+bowlStock,items,Food,,,Bowl of Stock,,,,,
+creamedCorn,items,Food,,,Creamed Corn,,,,,
+soupMushroom,items,Food,,,Mushroom Soup,,,,,
+meadBlueberry,items,Food,,,Blueberry Mead,,,,,
+mead,items,Food,,,Mead,,,,,
+warmsoupChunkyBeef,items,Food,,,Warm Chunky Beef Soup,,,,,
+warmsoupChicken,items,Food,,,Warm Chicken Soup,,,,,
+warmsoupLamb,items,Food,,,Warm Lamb Soup,,,,,
+warmbowlChili,items,Food,,,Warm Bowl of Chili,,,,,
+warmbowlMiso,items,Food,,,Warm Bowl of Miso,,,,,
+warmsoupPea,items,Food,,,Warm Pea Soup,,,,,
+warmbowlPasta,items,Food,,,Warm Bowl of Pasta,,,,,
+warmbowlSoup,items,Food,,,Warm Soup,,,,,
+warmbowlStock,items,Food,,,Warm Bowl of Stock,,,,,
+honeyHam,items,Food,,,Honey Ham,,,,,
+scrambledEggs,items,Food,,,Scrambled Eggs,,,,,
+drinkEnergy,items,Food,,,Energy Drink,,,,,
+drinkEnergyDesc,items,Food,,,While not delicious this drink will reinvigorate your energy.,,,,,
+baconEggSandwich,items,Food,,,Bacon Egg Sandwich,,,,,
+grillSteak,items,Food,,,Grilled Steak,,,,,
+steakSandwich,items,Food,,,Steak Sandwich,,,,,
+Omelet,items,Food,,,Omelet,,,,,
+biscuit,items,Food,,,Biscuit,,,,,
+biscuitJam,items,Food,,,Biscuit and Jam,,,,,
+mealBreakfast,items,Food,,,Breakfast Meal,,,,,
+mealDinner,items,Food,,,Dinner Meal,,,,,
+dinnerPlate,items,Food,,,Dinner Plate,,,,,
+toolBowlWater,items,Food,,,Tool Bowl Water,,,,,
+soupDesc,items,Food,,,Originally from a can this soup offers a more rewarding taste now that you're eating it properly.,,,,,

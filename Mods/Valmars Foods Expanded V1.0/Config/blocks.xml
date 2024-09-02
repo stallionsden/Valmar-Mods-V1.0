@@ -1,0 +1,113 @@
+<Valmar>
+<append xpath="/blocks">
+<block name="TheWeber9000">
+	<!-- Class -->
+	<property name="Class" value="Campfire"/>
+	<property name="CustomIcon" value="cntGasGrillClosed"/>
+	<property name="CustomIconTint" value="ff8080"/>
+	<property class="Workstation">
+		<property name="Modules" value="tools,output,fuel,input"/>
+		<property name="Collide" value="melee,bullet,arrow,rocket"/>
+	</property>
+	<!-- UI_Info -->
+	<property name="CreativeMode" value="Player"/>
+	<property name="DescriptionKey" value="campfireDesc"/>
+	<property name="UnlockedBy" value="theBBQSchematic"/>
+	<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+	<property name="CraftIcon" value="ui_game_symbol_spatula"/>
+	<property name="CraftActionName" value="lblContextActionCook"/>
+	<property name="Stacknumber" value="1"/>
+	<!-- Visual -->
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="@:Entities/LootContainers/GasGrill_FullPrefab.prefab"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="ParticleName" value="campfire"/>
+	<property name="ParticleOffset" value="0.5,0.1,0.5"/>
+	<!-- Placement -->
+	<property name="Place" value="TowardsPlacer90"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="IsTerrainDecoration" value="true"/>
+	<property name="StabilitySupport" value="false"/>
+	<!-- Value -->
+	<property name="EconomicValue" value="5"/>
+	<property name="EconomicBundleSize" value="1"/>
+	<property name="SellableToTrader" value="false"/>
+	<!-- Interaction -->
+	<property name="MaxDamage" value="100"/>
+	<property name="HeatMapStrength" value="5"/>
+	<property name="HeatMapTime" value="5000"/>
+	<property name="HeatMapFrequency" value="1000"/>
+	<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+	<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+	<property name="OpenSound" value="campfire_open"/>
+	<property name="CloseSound" value="campfire_close"/>
+	<property name="CraftSound" value="campfire_cook_click"/>
+	<property name="CraftCompleteSound" value="campfire_complete_item"/>
+	<property class="RepairItems">
+		<property name="resourceRockSmall" value="5"/>
+	</property>
+	<drop event="Destroy" name="resourceRockSmall" count="3"/>
+	<!-- Sorting -->
+	<property name="SortOrder1" value="B281"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+	<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+</block>
+
+	<block name="valfire">
+	<!-- Class -->
+		<property name="CustomIcon" value="campfire"/>
+		<property name="Class" value="Campfire"/>
+		<property class="Workstation">
+			<property name="Modules" value="tools,output,fuel,input"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+		</property>
+		<!-- UI_Info -->
+		<property name="CreativeMode" value="Player"/>
+		<property name="DescriptionKey" value="campfireDesc"/>
+		<property name="WorkstationIcon" value="ui_game_symbol_campfire"/>
+		<property name="CraftIcon" value="ui_game_symbol_spatula"/>
+		<property name="CraftActionName" value="lblContextActionCook"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- Visual -->
+		<property name="Material" value="MstoneNoGlue"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Crafting/campfireCookStationPrefab"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="WaterFlow" value="permitted"/>
+		<property name="ParticleName" value="campfire"/>
+		<property name="ParticleOffset" value="0.5,0.1,0.5"/>
+		<!-- Placement -->
+		<property name="Place" value="TowardsPlacer90"/>
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="StabilitySupport" value="false"/>
+		<!-- Value -->
+		<property name="EconomicValue" value="5"/>
+		<property name="EconomicBundleSize" value="1"/>
+		<property name="SellableToTrader" value="false"/>
+		<!-- Interaction -->
+		<property name="MaxDamage" value="100"/>
+		<property name="HeatMapStrength" value="5"/>
+		<property name="HeatMapTime" value="5000"/>
+		<property name="HeatMapFrequency" value="1000"/>
+		<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
+		<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
+		<property name="OpenSound" value="campfire_open"/>
+		<property name="CloseSound" value="campfire_close"/>
+		<property name="CraftSound" value="campfire_cook_click"/>
+		<property name="CraftCompleteSound" value="campfire_complete_item"/>
+		<property class="RepairItems">
+			<property name="resourceRockSmall" value="5"/>
+		</property>
+		<drop event="Destroy" name="resourceRockSmall" count="3"/>
+		<!-- Sorting -->
+		<property name="SortOrder1" value="B281"/>
+		<property name="SortOrder2" value="0000"/>
+		<property name="Group" value="Basics,Food/Cooking,Building,advBuilding"/>
+		<property name="FilterTags" value="MC_playerBlocks,SC_decor"/>
+	</block>
+</append>
+</Valmar>

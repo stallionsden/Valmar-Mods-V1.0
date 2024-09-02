@@ -1,0 +1,5 @@
+<Valmar>
+ <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingFood']/effect_group/passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'drinkJarRedTea')]/@tags">,activatedCarbon</append>
+</Valmar> 
+
+
