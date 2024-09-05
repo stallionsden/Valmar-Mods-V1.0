@@ -11,6 +11,7 @@
 		<item name="resourceBulletCasing" count="1,5" loot_prob_template="veryLow"/>
 		<item name="resourceDuctTape" count="1,5" loot_prob_template="veryLow"/>
 		<item name="resourceScrapPolymers" count="1,5" loot_prob_template="veryLow"/>
+		<item name="resourceCobblestones" count="1,5" loot_prob_template="veryLow"/>
 		<item name="resourceLockPick" count="1,5" loot_prob_template="veryLow" />
 		<item name="resourceSewingKit" count="1,5" loot_prob_template="veryLow" />		 
         <item name="resourceScrapIron" count="1,5" loot_prob_template="veryLow" />
@@ -223,10 +224,25 @@
 		<item name="drugOhShitzDrops" count="1,5" loot_prob_template="veryLow" />
 		<item name="drugRockBusters" count="1,5" loot_prob_template="veryLow" />
 		<item name="drugSkullCrushers" count="1,5" loot_prob_template="veryLow" />
-		<item name="drugSugarButts" count="1,5" loot_prob_template="veryLow" />
+		<item name="drugSugarButts" count="1,5" loot_prob_template="veryLow" />		
 		</lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyFood']">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyFood']">	
+	<lootgroup name="SupplyCandy" count="0,2">
+		<item name="drugAtomJunkies" count="0,1" loot_prob_template="veryLow" />
+		<item name="drugCovertCats" count="0,1" loot_prob_template="veryLow" />
+		<item name="drugEyeKandy" count="0,1" loot_prob_template="veryLow" />
+		<item name="drugHackers" count="0,1" loot_prob_template="veryLow" />
+		<item name="drugHealthBar" count="0,1" loot_prob_template="veryLow" />
+		<item name="drugJailBreakers" count="0,1" loot_prob_template="veryLow" />
+		<item name="drugNerdTats" count="0,1" loot_prob_template="veryLow" />
+		<item name="drugOhShitzDrops" count="0,1" loot_prob_template="veryLow" />
+		<item name="drugRockBusters" count="0,1" loot_prob_template="veryLow" />
+		<item name="drugSkullCrushers" count="0,1" loot_prob_template="veryLow" />
+		<item name="drugSugarButts" count="0,1" loot_prob_template="veryLow" />	
+		</lootgroup>
+	</insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyCandy']">
 	<lootgroup name="SupplyParts" count="1,3">
 		<item name="gunMGT1AK47Parts" count="1,4" loot_prob_template="veryLow" />
 		<item name="gunHandgunT1PistolParts" count="1,4" loot_prob_template="veryLow" />
@@ -311,7 +327,6 @@
 		<item name="ammoJunkTurretAP" count="1,15" loot_prob_template="veryLow" />
 		<item name="ammoRocketHE" count="1,15" loot_prob_template="veryLow" />
         <item name="ammoRocketFrag" count="1,15" loot_prob_template="veryLow" />
-        <item name="ammoGasCan" count="1,15" loot_prob_template="veryLow" />
         <item name="ammoArrowStone" count="1,15" loot_prob_template="veryLow" />
         <item name="ammoArrowIron" count="1,15" loot_prob_template="veryLow" />
         <item name="ammoArrowSteelAP" count="1,15" loot_prob_template="veryLow" />
@@ -481,18 +496,63 @@
 		<item name="armorRaiderBoots" count="1,3" loot_prob_template="veryLow" />
         </lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyArmor']">	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyArmor']">
+	<lootgroup name="SupplyRewards" count="0,2">
+	<item name="questRewardT2FoodBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT3FoodBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT4FoodBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT1BookBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT2BookBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT3BookBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT4BookBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT5BookBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT1TrapsBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT2TrapsBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardDartTrapBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardBladeTrapBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardShotgunTurretBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardAutoTurretBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardSecuritySystemBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardGeneratorBankBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardBatteryBankBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardSolarBankBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT1MeleeModsBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT2MeleeModsBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT3MeleeModsBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT1RangedModsBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT2RangedModsBundle" count="0,1" loot_prob_template="veryLow" />
+	<item name="questRewardT3RangedModsBundle" count="0,1" loot_prob_template="veryLow" />
+	 </lootgroup>
+	</insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyRewards']">
+	<lootgroup name="SupplyElectrical" count="1,2">
+	<item name="resourceElectricParts" count="1,10" loot_prob_template="veryLow"/>
+	<item name="electricwirerelay" count="1,5" loot_prob_template="veryLow"/>
+	<item name="electrictimerrelay" count="0,2" loot_prob_template="veryLow"/>
+	<item name="ceilingLight01_player" count="1,3" loot_prob_template="veryLow"/>
+	<item name="switch" count="0,2" loot_prob_template="veryLow"/>
+	<item name="speaker" count="0,1" loot_prob_template="veryLow"/>
+	<item name="motionsensor" count="0,2" loot_prob_template="veryLow"/>
+	<item name="pressureplate" count="0,3" loot_prob_template="veryLow"/>
+	<item name="batterybank" count="0,1" loot_prob_template="veryLow"/>
+	<item name="generatorbank" count="0,1" loot_prob_template="veryLow"/>	
+	 </lootgroup>
+	</insertAfter>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyElectrical']">	
     <lootgroup name="SupplyGroups" count="2,4">
 		<item group="SupplyMaterials" count="0,1" loot_prob_template="veryLow" />
         <item group="SupplyFood" count="0,1" loot_prob_template="veryLow" />
+		<item group="SupplyCandy" count="0,1" loot_prob_template="veryLow" />
         <item group="SupplyWeapons" count="0,1" loot_prob_template="veryLow" />
         <item group="SupplySchematics" count="0,1" loot_prob_template="veryLow" />
 		<item group="SupplyPerkBooks" count="0,1" loot_prob_template="veryLow" />
 		<item group="Supplymedical" count="0,1" loot_prob_template="veryLow" />
 		<item group="SupplyParts" count="0,1" loot_prob_template="veryLow" />
         <item group="SupplyAutomotive" count="0,1" loot_prob_template="veryLow" />
-        <item group="SupplyAmmo" count="0,1" loot_prob_template="veryLow" />
+        <item group="SupplyAmmo" count="0,1" loot_prob_template="veryLow" />		
 		<item group="SupplyAmmoBundles" count="0,1" loot_prob_template="veryLow" />
+		<item group="SupplyRewards" count="0,1" loot_prob_template="veryLow" />
+		<item group="SupplyElectrical" count="0,1" loot_prob_template="veryLow" />
         <item group="SupplyTools" count="0,1" loot_prob_template="veryLow" />
 		<item group="SupplyMags" count="0,1" loot_prob_template="veryLow" />
 		<item group="SupplyArmor" count="0,1" loot_prob_template="veryLow" />
