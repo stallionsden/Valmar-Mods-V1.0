@@ -1257,7 +1257,7 @@
       <property name="Stacknumber" value="10"/>
       <!-- STK food -->
       <property name="EconomicValue" value="124"/>
-      <property name="UnlockedBy" value="foodBlueberryPieSchematic"/>
+      <property name="UnlockedBy" value="craftingFood"/>
       <property class="Action0">
         <property name="Class" value="Eat"/>
         <property name="Delay" value="1.0"/>
@@ -1337,7 +1337,7 @@
       <property name="Stacknumber" value="10"/>
       <!-- STK food -->
       <property name="EconomicValue" value="102"/>
-      <property name="UnlockedBy" value="foodVegetableStewSchematic"/>
+      <property name="UnlockedBy" value="craftingFood"/>
       <property class="Action0">
         <property name="Class" value="Eat"/>
         <property name="Delay" value="1.0"/>
@@ -1531,6 +1531,7 @@
 		<item name="theBBQSchematic">
 		<property name="Extends" value="schematicNoQualityMaster"/>
 		<property name="CreativeMode" value="Player"/>
+		<property name="AltItemTypeIcon" value="book_read"/>
 		<property name="CustomIcon" value="theBBQSchematic"/>
 		<property name="Unlocks" value="TheWeber9000"/>
 		<effect_group tiered="false">

@@ -86,6 +86,7 @@
 		<ingredient name="drugVitamins" count="1"/>
 		<ingredient name="drinkJarBoiledWater" count="1"/>
 		</recipe>
+		
 		<recipe name="foodRawCharredMeat" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingGrill" >
 	<ingredient name="foodRawMeat" count="5"/>
 	<ingredient name="activatedCarbon" count="1"/>
@@ -105,7 +106,6 @@
 	<recipe name="foodRawMeatStew" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
 		<ingredient name="foodRawMeat" count="5"/>
 		<ingredient name="foodCropPotato" count="2"/>
-		<ingredient name="foodCropCorn" count="2"/>
 		<ingredient name="drinkJarBoiledWater" count="1"/>
 		<ingredient name="resourceAnimalFat" count="1"/>
 		<ingredient name="activatedCarbon" count="1"/>
@@ -129,7 +129,6 @@
 
 	<recipe name="foodRawHoboStew" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
 		<ingredient name="foodRawRottingFlesh" count="10"/>
-		<ingredient name="foodCropPotato" count="2"/>
 		<ingredient name="foodCropCorn" count="2"/>
 		<ingredient name="drinkJarBoiledWater" count="1"/>
 		<ingredient name="resourceAnimalFat" count="1"/>
@@ -205,7 +204,6 @@
 		<ingredient name="foodCropPotato" count="2"/>
 		<ingredient name="foodCropCorn" count="2"/>
 		<ingredient name="drinkJarBoiledWater" count="1"/>
-		<ingredient name="sealedAnimalFat" count="1"/>
 		<ingredient name="activatedCarbon" count="1"/>
 	</recipe>
 
@@ -228,7 +226,6 @@
 	<recipe name="foodTreatedHoboStew" count="1" craft_time="0.5" craft_area="TheWeber9000" craft_tool="toolCookingPot" >
 		<ingredient name="sealedRottingFlesh" count="10"/>
 		<ingredient name="foodCropPotato" count="2"/>
-		<ingredient name="foodCropCorn" count="2"/>
 		<ingredient name="drinkJarBoiledWater" count="1"/>
 		<ingredient name="resourceAnimalFat" count="1"/>
 		<ingredient name="activatedCarbon" count="1"/>
@@ -256,7 +253,6 @@
 		<ingredient name="foodCropBlueberries" count="5"/>
 		<ingredient name="foodEgg" count="1"/>
 		<ingredient name="foodCornMeal" count="1"/>
-		<ingredient name="sealedAnimalFat" count="1"/>
 		<ingredient name="drinkJarBoiledWater" count="1"/>
 		<ingredient name="activatedCarbon" count="1"/>
 	</recipe>
