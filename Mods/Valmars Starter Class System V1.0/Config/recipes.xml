@@ -48,7 +48,23 @@
     </recipe>
 	 <recipe name="Class - Assassin (Locked)" count="1" scrapable="False" >
 	<ingredient name="classSelection" count="1" />
-    </recipe>	
+    </recipe>
+
+	<recipe name="classSelection" count="1" craft_time="240" craft_area="workbench" is_trackable="true" craft_tool="toolForgeCrucible" scrapable="False" >
+	<ingredient name="resourcePaper" count="100" />
+	<ingredient name="resourceTestosteroneExtract" count="12" />
+	<ingredient name="resourceOil" count="66" />
+	<ingredient name="resourceLeather" count="44" />
+	<ingredient name="resourceSewingKit" count="8" />
+    </recipe>
+	
+	<recipe name="classKey" count="1" craft_time="180" craft_area="forge" is_trackable="true" craft_tool="toolForgeCrucible" scrapable="False" >
+	<ingredient name="resourceForgedSteel" count="20" />
+	<ingredient name="resourceScrapBrass" count="12" />
+	<ingredient name="resourceOil" count="24" />
+	<ingredient name="resourceRawDiamond" count="8" />
+	<ingredient name="resourceLegendaryParts" count="3" />
+    </recipe>
 	
 	<recipe name="smallEngine" count="1" >
 	<ingredient name="resourceForgedSteel" count="30"/>
