@@ -1,0 +1,2030 @@
+<Valmar>
+<append xpath="/quests">
+<!-- CLASS QUESTS -->
+<!-- HUNTER -->
+	<quest id="challenge_hunter1">
+		<property name="name_key" value="hunter1_quest" param1="name"/>
+		<property name="subtitle_key" value="hunter1_quest" param1="name"/>
+		<property name="description_key" value="hunter1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_quest"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="hunter1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunBowT0PrimitiveBow" phase="1"/>
+		<objective type="EntityKill" id="animalStag" value="1" phase="1"/>
+		<objective type="EntityKill" id="animalDoe" value="1" phase="1"/>
+		<objective type="EntityKill" id="animalRabbit" value="1" phase="1"/>
+		<objective type="EntityKill" id="animalChicken" value="1" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="1000"/>				
+				<reward type="Item" id="gunBowT1WoodenBow" value="1" />
+				<reward type="Item" id="ammoArrowIron"  value="200" />
+				<reward type="Quest" id="challenge_hunter2" />
+
+		</quest>
+	
+		<quest id="challenge_hunter2">
+		<property name="name_key" value="hunter1_quest" param1="name"/>
+		<property name="subtitle_key" value="hunter2_quest" param1="name"/>
+		<property name="description_key" value="hunter2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbo2_quest"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="hunter2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunBowT1WoodenBow" phase="1"/>
+					<objective type="EntityKill" id="animalBearSmall" value="1" phase="1"/>
+					<objective type="EntityKill" id="animalWolf" value="1" phase="1"/>
+					<objective type="EntityKill" id="animalCoyote" value="1" phase="1"/>
+					<objective type="EntityKill" id="animalZombieVulture" value="1" phase="1"/>
+					<objective type="EntityKill" id="animalSnake" value="1" phase="1"/>
+					<objective type="EntityKill" id="animalBoar" value="1" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="1500" />
+				<reward type="Item" id="gunRifleT1HuntingRifle" value="1" />
+				<reward type="Item" id="ammo762mmBulletBall" value="150" />
+				<reward type="Quest" id="challenge_hunter3" />
+	</quest>
+	
+		<quest id="challenge_hunter3">
+		<property name="name_key" value="hunter3_quest" param1="name"/>
+		<property name="subtitle_key" value="hunter3_quest" param1="name"/>
+		<property name="description_key" value="hunter3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_quest"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="hunter3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunRifleT1HuntingRifle" phase="1"/>
+					<objective type="EntityKill" id="animalBear" value="1" phase="1"/>
+					<objective type="EntityKill" id="animalZombieBear" value="1" phase="1"/>
+					<objective type="EntityKill" id="animalMountainLion" value="1" phase="1"/>
+					<objective type="EntityKill" id="animalZombieVultureRadiated" value="1" phase="1"/>
+					<objective type="EntityKill" id="animalZombieDog" value="2" phase="1"/>
+					<objective type="EntityKill" id="animalBossGrace" value="1" phase="1"/>
+					<objective type="EntityKill" id="animalDireWolf" value="1" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="2000"/>
+				<reward type="Item" id="gunHandgunT1Pistol" value="1" />
+				<reward type="Item" id="ammo9mmBulletBall" value="50" />
+				<reward type="Item" id="bookHuntingJournalBears" value="1" />
+				<reward type="Item" id="bookHuntingJournalCoyotes" value="1" />
+				<reward type="Item" id="bookHuntingJournalDeer" value="1" />
+				<reward type="Item" id="bookHuntingJournalMountainLions" value="1" />
+				<reward type="Item" id="bookHuntingJournalVultures" value="1" />
+				<reward type="Item" id="bookHuntingJournalWolves" value="1" />
+				<reward type="Item" id="bookHuntingJournalSelfDefense" value="1" />				
+				<reward type="Item" id="resourceSewingKit" value="5" />
+				<reward type="Item" id="drugPainkillers" value="1" />
+				<reward type="Item" id="armorSkillMagazine" value="10" />
+				<reward type="Item" id="bowsSkillMagazine" value="10" />
+				<reward type="Item" id="handgunsSkillMagazine" value="10" />
+				<reward type="Item" id="harvestingToolsSkillMagazine" value="10" />
+				<reward type="Item" id="spearsSkillMagazine" value="10" />
+				<reward type="Item" id="riflesSkillMagazine" value="10" />				
+				<reward type="Item" id="drinkJarPureMineralWater" value="5" />
+				<reward type="Item" id="medicalFirstAidBandage" value="5" />
+				<reward type="Item" id="ammo762mmBulletBall" value="250" />
+				<reward type="Item" id="meleeWpnSpearT1IronSpear" value="1" />								
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- HUNTER -->
+<!-- BUILDER -->
+	<quest id="challenge_builder1">
+		<property name="name_key" value="builder1_quest" param1="name"/>
+		<property name="subtitle_key" value="builder1_quest" param1="name"/>
+		<property name="description_key" value="builder1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_hammer"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="builder1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="meleeToolRepairT0StoneAxe" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="1000" phase="1"/>
+		<objective type="Craft" id="frameShapes:VariantHelper" value="100" phase="1"/>
+		<objective type="BlockPlace" id="frameShapes:VariantHelper" value="100" phase="1"/>
+		<objective type="BlockUpgrade" id="frameShapes:VariantHelper" value="100" phase="1"/>
+				
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="1000"/>
+				<reward type="Item" id="meleeToolRepairT1ClawHammer" value="1" />
+				<reward type="Item" id="resourceWood" value="2000" />
+				<reward type="Quest" id="challenge_builder2" />
+
+		</quest>
+	
+		<quest id="challenge_builder2">
+		<property name="name_key" value="builder2_quest" param1="name"/>
+		<property name="subtitle_key" value="builder2_quest" param1="name"/>
+		<property name="description_key" value="builder2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_hammer"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="builder2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="meleeToolRepairT1ClawHammer" phase="1"/>
+					<objective type="FetchKeep" id="resourceCobblestones" value="2000" phase="1"/>
+					<objective type="FetchKeep" id="resourceWood" value="1000" phase="1"/>
+					<objective type="Craft" id="frameShapes:VariantHelper" value="100" phase="1"/>
+					<objective type="BlockPlace" id="frameShapes:VariantHelper" value="100" phase="1"/>
+					<objective type="BlockUpgrade" id="frameShapes:VariantHelper" value="100" phase="1"/>
+					<objective type="BlockUpgrade" id="woodShapes:VariantHelper" value="100" phase="1"/>
+						
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="1500" phase="1" />				
+				<reward type="Item" id="meleeToolPickT1IronPickaxe" value="1" />
+				<reward type="Item" id="resourceCobblestones" value="500" />
+				<reward type="Quest" id="challenge_builder3" />
+	</quest>
+	
+		<quest id="challenge_builder3">
+		<property name="name_key" value="builder3_quest" param1="name"/>
+		<property name="subtitle_key" value="builder3_quest" param1="name"/>
+		<property name="description_key" value="builder3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_hammer"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="builder3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="meleeToolPickT1IronPickaxe" phase="1"/>
+					<objective type="FetchKeep" id="resourceCobblestones" value="5000" phase="1"/>
+					<objective type="FetchKeep" id="resourceWood" value="5000" phase="1"/>
+					<objective type="Craft" id="frameShapes:VariantHelper" value="100" phase="1"/>
+					<objective type="BlockPlace" id="frameShapes:VariantHelper" value="100" phase="1"/>
+					<objective type="BlockUpgrade" id="frameShapes:VariantHelper" value="100" phase="1"/>
+					<objective type="BlockUpgrade" id="woodShapes:VariantHelper" value="100" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="2000"/>
+				<reward type="Item" id="repairToolsSkillMagazine" value="10" />
+				<reward type="Item" id="salvageToolsSkillMagazine" value="10" />
+				<reward type="Item" id="meleeToolRepairT3Nailgun" value="1" />
+				<reward type="Item" id="resourceNail" value="150" />
+				<reward type="Item" id="workstationSkillMagazine" value="1" />
+				<reward type="Item" id="bookGreatHeistAdrenalineFall" value="1" />
+				<reward type="Item" id="bookGreatHeistGoldRush" value="1" />
+				<reward type="Item" id="bookGreatHeistClaimed" value="1" />
+				<reward type="Item" id="bookGreatHeistGems" value="1" />
+				<reward type="Item" id="bookGreatHeistMotionDetection" value="1" />
+				<reward type="Item" id="bookGreatHeistSafes" value="1" />
+				<reward type="Item" id="bookGreatHeistSprintSneak" value="1" />				
+				<reward type="Item" id="drinkJarPureMineralWater" value="5" />
+				<reward type="Item" id="resourceSewingKit" value="5" />
+				<reward type="Item" id="medicalFirstAidBandage" value="5" />
+				<reward type="Item" id="bladesSkillMagazine" value="10" />
+				<reward type="Item" id="shotgunsSkillMagazine" value="10" />
+				<reward type="Item" id="armorSkillMagazine" value="10" />
+				<reward type="Item" id="meleeWpnBladeT1HuntingKnife" value="1" />
+				<reward type="Item" id="handgunsSkillMagazine" value="10" />				
+				<reward type="Item" id="gunHandgunT1Pistol" value="1" />
+				<reward type="Item" id="meleeToolSalvageT1Wrench" value="1" />
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- BUILDER -->
+<!-- RIFLEMAN -->
+	<quest id="challenge_rifleman1">
+		<property name="name_key" value="rifleman1_quest" param1="name"/>
+		<property name="subtitle_key" value="rifleman1_quest" param1="name"/>
+		<property name="description_key" value="rifleman1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_rifle"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="rifleman1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunRifleT0PipeRifle" phase="1"/>
+			<objective type="EntityKill" id="zombieArlene" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieMarlene" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieJoe" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieSteve" value="10" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="1000"/>
+				<reward type="Item" id="ammo762mmBulletBall" value="150" />				
+				<reward type="Item" id="gunRifleT1HuntingRifle" value="1" />
+				<reward type="Quest" id="challenge_rifleman2" />
+
+		</quest>
+	
+		<quest id="challenge_rifleman2">
+		<property name="name_key" value="rifleman2_quest" param1="name"/>
+		<property name="subtitle_key" value="rifleman2_quest" param1="name"/>
+		<property name="description_key" value="rifleman2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_rifle"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="rifleman2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunRifleT1HuntingRifle" phase="1"/>
+			<objective type="EntityKill" id="zombieTomClarkFeral" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieBusinessManFeral" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieSpiderFeral" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieInmateFeral" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieLabFeral" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieDarleneFeral" value="10" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="1500" />
+				<reward type="Item" id="gunRifleT2LeverActionRifle" value="1" />
+				<reward type="Item" id="modGunMeleeRadRemover" value="1" />
+				<reward type="Item" id="ammo762mmBulletHP" value="500" />
+				<reward type="Quest" id="challenge_rifleman3" />
+	</quest>
+	
+		<quest id="challenge_rifleman3">
+		<property name="name_key" value="rifleman3_quest" param1="name"/>
+		<property name="subtitle_key" value="rifleman3_quest" param1="name"/>
+		<property name="description_key" value="rifleman3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_rifle"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="rifleman3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunRifleT2LeverActionRifle" phase="1"/>
+			<objective type="EntityKill" id="zombieDarleneRadiated" value="5" phase="1"/>
+			<objective type="EntityKill" id="zombieUtilityWorkerRadiated" value="5" phase="1"/>
+			<objective type="EntityKill" id="zombieBikerRadiated" value="5" phase="1"/>
+			<objective type="EntityKill" id="zombieLumberjackRadiated" value="5" phase="1"/>
+			<objective type="EntityKill" id="zombieFemaleFatRadiated" value="5" phase="1"/>
+			<objective type="EntityKill" id="zombieFatHawaiianRadiated" value="5" phase="1"/>	
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="3000"/>
+				<reward type="Item" id="resourceRepairKit" value="25" />				
+				<reward type="Item" id="bookEnforcerAPAmmo" value="1" />
+				<reward type="Item" id="bookEnforcerApparel" value="1" />
+				<reward type="Item" id="bookEnforcerCriminalPursuit" value="1" />
+				<reward type="Item" id="bookEnforcerHPAmmo" value="1" />
+				<reward type="Item" id="bookEnforcerDamage" value="1" />
+				<reward type="Item" id="bookEnforcerIntimidation" value="1" />
+				<reward type="Item" id="bookEnforcerPunks" value="1" />
+				<reward type="Item" id="riflesSkillMagazine" value="10" />				
+				<reward type="Item" id="drinkJarPureMineralWater" value="5" />
+				<reward type="Item" id="medicalFirstAidBandage" value="5" />
+				<reward type="Item" id="drugPainkillers" value="2" />
+				<reward type="Item" id="bladesSkillMagazine" value="10" />
+				<reward type="Item" id="armorSkillMagazine" value="10" />
+				<reward type="Item" id="meleeWpnBladeT1HuntingKnife" value="1" />
+				<reward type="Item" id="gunRifleT3SniperRifle" value="1" />
+				<reward type="Item" id="ammo762mmBulletBall" value="100" />
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- RIFLEMAN -->
+ <!-- GUNMAN -->
+	<quest id="challenge_gunman1">
+		<property name="name_key" value="gunman1_quest" param1="name"/>
+		<property name="subtitle_key" value="gunman1_quest" param1="name"/>
+		<property name="description_key" value="gunman1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_rifle"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="gunman1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunHandgunT1Pistol" phase="1"/>
+			<objective type="EntityKill" id="zombieFatCop" value="1" phase="1"/>
+			<objective type="EntityKill" id="zombieSkateboarder" value="2" phase="1"/>
+			<objective type="EntityKill" id="zombieSoldier" value="1" phase="1"/>
+			<objective type="EntityKill" id="zombieScreamer" value="1" phase="1"/>
+			<objective type="EntityKill" id="zombieMutated" value="1" phase="1"/>
+			<objective type="EntityKill" id="zombieSteveCrawler" value="10" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="1000"/>
+				<reward type="Item" id="ammo44MagnumBulletBall" value="150" />				
+				<reward type="Item" id="gunBowT1IronCrossbow" value="1" />
+				<reward type="Item" id="ammoCrossbowBoltIron" value="150" />
+				<reward type="Quest" id="challenge_gunman2" />
+
+		</quest>
+	
+		<quest id="challenge_gunman2">
+		<property name="name_key" value="gunman2_quest" param1="name"/>
+		<property name="subtitle_key" value="gunman2_quest" param1="name"/>
+		<property name="description_key" value="gunman2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_rifle"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="gunman2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunBowT1IronCrossbow" phase="1"/>
+			<objective type="EntityKill" id="zombieWightFeral" value="1" phase="1"/>
+			<objective type="EntityKill" id="zombieSoldierFeral" value="2" phase="1"/>
+			<objective type="EntityKill" id="zombieNurseFeral" value="3" phase="1"/>
+			<objective type="EntityKill" id="zombieJoeFeral" value="3" phase="1"/>
+			<objective type="EntityKill" id="zombieSteveFeral" value="3" phase="1"/>
+			<objective type="EntityKill" id="zombieTomClark" value="10" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="1500" phase="1" />				
+				<reward type="Item" id="gunHandgunT3SMG5" value="1" />
+				<reward type="Item" id="ammo9mmBulletHP" value="250" />
+				<reward type="Quest" id="challenge_gunman3" />
+	</quest>
+	
+		<quest id="challenge_gunman3">
+		<property name="name_key" value="gunman3_quest" param1="name"/>
+		<property name="subtitle_key" value="gunman3_quest" param1="name"/>
+		<property name="description_key" value="gunman3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_rifle"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="gunman3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunHandgunT3SMG5" phase="1"/>
+			<objective type="EntityKill" id="zombieBusinessManRadiated" value="1" phase="1"/>
+			<objective type="EntityKill" id="zombieSpiderFeral" value="2" phase="1"/>
+			<objective type="EntityKill" id="zombieBurntFeral" value="3" phase="1"/>
+			<objective type="EntityKill" id="zombieMaleHazmatFeral" value="3" phase="1"/>
+			<objective type="EntityKill" id="zombieJanitorFeral" value="3" phase="1"/>
+			<objective type="EntityKill" id="zombieBoe" value="10" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="2000"/>
+				<reward type="Item" id="handgunsSkillMagazine" value="10" />
+				<reward type="Item" id="bowsSkillMagazine" value="10" />
+				<reward type="Item" id="bookPistolPeteAPAmmo" value="1" />
+				<reward type="Item" id="bookPistolPeteDamage" value="1" />
+				<reward type="Item" id="bookPistolPeteHPAmmo" value="1" />
+				<reward type="Item" id="bookPistolPeteMaintenance" value="1" />
+				<reward type="Item" id="bookPistolPeteSteadyHand" value="1" />
+				<reward type="Item" id="bookPistolPeteSwissKnees" value="1" />
+				<reward type="Item" id="bookPistolPeteTakeAim" value="1" />				
+				<reward type="Item" id="drugPainkillers" value="2" />
+				<reward type="Item" id="machineGunsSkillMagazine" value="1" />
+				<reward type="Item" id="armorSkillMagazine" value="10" />
+				<reward type="Item" id="drinkJarPureMineralWater" value="5" />
+				<reward type="Item" id="medicalFirstAidBandage" value="5" />
+				<reward type="Item" id="gunHandgunT3DesertVulture" value="1" />
+				<reward type="Item" id="ammo44MagnumBulletHP" value="100" />
+				<reward type="Item" id="gunMGT2TacticalAR" value="1" />
+				<reward type="Item" id="ammo762mmBulletBall" value="100" />
+				<reward type="Item" id="resourceRepairKit" value="10" />
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- GUNMAN -->
+ <!-- VETERAN -->
+	<quest id="challenge_veteran1">
+		<property name="name_key" value="veteran1_quest" param1="name"/>
+		<property name="subtitle_key" value="veteran1_quest" param1="name"/>
+		<property name="description_key" value="veteran1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_rifle"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="veteran1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="meleeWpnKnucklesT0LeatherKnuckles" phase="1"/>
+			<objective type="EntityKill" id="zombieInmate" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieMoe" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieLab" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieDarlene" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieYo" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieUtilityWorker" value="20" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="1500"/>
+				<reward type="Item" id="medicalFirstAidBandage" value="10" />
+				<reward type="Item" id="drinkJarBoiledWater" value="10" />
+				<reward type="Item" id="foodHoney" value="10" />
+				<reward type="Item" id="drinkCanMegaCrush" value="5" />
+				<reward type="Item" id="meleeWpnBladeT1HuntingKnife" value="1" />
+				<reward type="Quest" id="challenge_veteran2" />	
+
+		</quest>
+	
+		<quest id="challenge_veteran2">
+		<property name="name_key" value="veteran2_quest" param1="name"/>
+		<property name="subtitle_key" value="veteran2_quest" param1="name"/>
+		<property name="description_key" value="veteran2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_rifle"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="veteran2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="meleeWpnBladeT1HuntingKnife" phase="1"/>
+			<objective type="EntityKill" id="zombieInmate" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieMoe" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieLab" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieDarlene" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieYo" value="10" phase="1"/>
+			<objective type="EntityKill" id="zombieUtilityWorker" value="20" phase="1"/>
+				
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="2000" />				
+				<reward type="Item" id="gunRifleT1HuntingRifle" value="1" />
+				<reward type="Item" id="ammo762mmBulletHP" value="500" />
+				<reward type="Quest" id="challenge_veteran3" />
+	</quest>
+	
+		<quest id="challenge_veteran3">
+		<property name="name_key" value="veteran3_quest" param1="name"/>
+		<property name="subtitle_key" value="veteran3_quest" param1="name"/>
+		<property name="description_key" value="veteran3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_rifle"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="veteran3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunRifleT1HuntingRifle" phase="1"/>
+			<objective type="EntityKill" id="zombieUtilityWorkerRadiated" value="5" phase="1"/>
+			<objective type="EntityKill" id="zombieBikerRadiated" value="5" phase="1"/>
+			<objective type="EntityKill" id="zombieLumberjackRadiated" value="5" phase="1"/>
+			<objective type="EntityKill" id="zombieFemaleFatRadiated" value="5" phase="1"/>
+			<objective type="EntityKill" id="zombieBowlerRadiated" value="5" phase="1"/>
+			<objective type="EntityKill" id="zombieArlene" value="50" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="3000"/>				
+				<reward type="Item" id="meleeWpnBladeT1HuntingKnife" value="1" />	
+				<reward type="Item" id="gunRifleT3SniperRifle" value="1" />	
+				<reward type="Item" id="knucklesSkillMagazine" value="10" />
+				<reward type="Item" id="meleeWpnKnucklesT3SteelKnuckles" value="1" />
+				<reward type="Item" id="gunBowT3CompoundCrossbow" value="1" />
+				<reward type="Item" id="ammoCrossbowBoltIron" value="100" />				
+				<reward type="Item" id="drugPainkillers" value="3" />
+				<reward type="Item" id="drinkJarPureMineralWater" value="5" />
+				<reward type="Item" id="medicalFirstAidBandage" value="10" />
+				<reward type="Item" id="ammo762mmBulletHP" value="100" />
+				<reward type="Item" id="resourceRepairKit" value="10" />
+				<reward type="Item" id="armorSkillMagazine" value="10" />
+				<reward type="Item" id="bowsSkillMagazine" value="10" />				
+				<reward type="Item" id="handgunsSkillMagazine" value="10" />
+				<reward type="Item" id="gunHandgunT2Magnum44" value="1" />
+				<reward type="Item" id="ammo44MagnumBulletBall" value="350" />
+				<reward type="Item" id="riflesSkillMagazine" value="10" />
+				<reward type="Item" id="bookSniperAPAmmo" value="1" />
+				<reward type="Item" id="bookSniperControlledBreathing" value="1" />
+				<reward type="Item" id="bookSniperCripplingShot" value="1" />
+				<reward type="Item" id="bookSniperDamage" value="1" />
+				<reward type="Item" id="bookSniperHeadShot" value="1" />
+				<reward type="Item" id="bookSniperReload" value="1" />
+				<reward type="Item" id="bookSniperHPAmmo" value="1" />
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- VETERAN -->
+ <!-- MINER -->
+	<quest id="challenge_miner1">
+		<property name="name_key" value="miner1_quest" param1="name"/>
+		<property name="subtitle_key" value="miner1_quest" param1="name"/>
+		<property name="description_key" value="miner1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_forge"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="miner1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="meleeToolRepairT0StoneAxe" phase="1"/>
+			<objective type="FetchKeep" id="resourceRockSmall" value="500" phase="1"/>
+			<objective type="FetchKeep" id="resourceScrapIron" value="500" phase="1"/>
+			<objective type="FetchKeep" id="resourceScrapLead" value="500" phase="1"/>
+			<objective type="FetchKeep" id="resourceCoal" value="500" phase="1"/>
+			<objective type="FetchKeep" id="resourcePotassiumNitratePowder" value="1000" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="1000"/>				
+				<reward type="Item" id="meleeToolPickT1IronPickaxe" value="1" />				
+				<reward type="Item" id="thrownDynamite" value="5" />
+				<reward type="Quest" id="challenge_miner2" />	
+
+		</quest>
+	
+		<quest id="challenge_miner2">
+		<property name="name_key" value="miner2_quest" param1="name"/>
+		<property name="subtitle_key" value="miner2_quest" param1="name"/>
+		<property name="description_key" value="miner2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_forge"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="miner2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="meleeToolPickT1IronPickaxe" phase="1"/>
+			<objective type="FetchKeep" id="resourceRockSmall" value="1000" phase="1"/>
+			<objective type="FetchKeep" id="resourceIronFragment" value="1000" phase="1"/>
+			<objective type="FetchKeep" id="resourceScrapLead" value="1000" phase="1"/>
+			<objective type="FetchKeep" id="resourceCoal" value="1000" phase="1"/>
+			<objective type="FetchKeep" id="resourcePotassiumNitratePowder" value="1500" phase="1"/>
+				
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="1500" phase="1" />				
+				<reward type="Item" id="drinkJarCoffee" value="10" />
+				<reward type="Item" id="drinkJarBlackStrapCoffee" value="5" />
+				<reward type="Quest" id="challenge_miner3" />
+	</quest>
+	
+		<quest id="challenge_miner3">
+		<property name="name_key" value="miner3_quest" param1="name"/>
+		<property name="subtitle_key" value="miner3_quest" param1="name"/>
+		<property name="description_key" value="miner3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_forge"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="miner3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="meleeToolPickT1IronPickaxe" phase="1"/>
+		<objective type="FetchKeep" id="resourceRockSmall" value="1000" phase="1"/>
+		<objective type="FetchKeep" id="resourceClayLump" value="1000" phase="1"/>
+		<objective type="FetchKeep" id="resourceCobblestones" value="1500" phase="1"/>
+		<objective type="Craft" id="resourceForgedIron" value="150" phase="1"/>
+		<objective type="Craft" id="resourceNail" value="100" phase="1"/>
+		<objective type="Craft" id="resourceForgedSteel" value="25" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="2000"/>
+				<reward type="Item" id="forge" value="1" />
+				<reward type="Item" id="meleeToolPickT3Auger" value="1" />
+				<reward type="Item" id="ammoGasCan" value="100" />
+				<reward type="Item" id="workstationSkillMagazine" value="10" />
+				<reward type="Item" id="salvageToolsSkillMagazine" value="10" />
+				<reward type="Item" id="explosivesSkillMagazine" value="10" />				
+				<reward type="Item" id="harvestingToolsSkillMagazine" value="10" />
+				<reward type="Item" id="repairToolsSkillMagazine" value="10" />					
+				<reward type="Item" id="drugPainkillers" value="2" />
+				<reward type="Item" id="drinkJarPureMineralWater" value="5" />
+				<reward type="Item" id="medicalFirstAidBandage" value="5" />
+				<reward type="Item" id="resourceForgedSteel" value="50" />
+				<reward type="Item" id="handgunsSkillMagazine" value="10" />
+				<reward type="Item" id="armorSkillMagazine" value="10" />
+				<reward type="Item" id="modArmorHelmetLightSchematic" value="1" />
+				<reward type="Item" id="gunHandgunT1Pistol" value="1" />
+				<reward type="Item" id="ammo9mmBulletBall" value="100" />				
+				<reward type="Item" id="bookArtOfMiningLuckyStrike" value="1" />
+				<reward type="Item" id="bookArtOfMiningDiamondTools" value="1" />
+				<reward type="Item" id="bookArtOfMiningPallets" value="1" />
+				<reward type="Item" id="bookArtOfMiningCoffee" value="1" />
+				<reward type="Item" id="bookArtOfMiningBlackStrap" value="1" />
+				<reward type="Item" id="bookArtOfMiningAvalanche" value="1" />
+				<reward type="Item" id="bookArtOfMiningDamage" value="1" />
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- MINER -->
+ <!-- SURVIVOR -->
+	<quest id="challenge_survivor1">
+		<property name="name_key" value="survivor1_quest" param1="name"/>
+		<property name="subtitle_key" value="survivor1_quest" param1="name"/>
+		<property name="description_key" value="survivor1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_campfire"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="survivor1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="meleeWpnBladeT0BoneKnife" phase="1"/>
+		<objective type="EntityKill" id="animalRabbit" value="5" phase="1"/>
+        <objective type="EntityKill" id="animalChicken" value="5" phase="1"/>
+		<objective type="EntityKill" id="zombiePartyGirl" value="5" phase="1"/>
+        <objective type="EntityKill" id="zombieNurse" value="5" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="1000"/>
+				<reward type="Item" id="ammoArrowIron" value="100" />				
+				<reward type="Item" id="gunBowT1WoodenBow" value="1" />
+				<reward type="Quest" id="challenge_survivor2" />	
+
+		</quest>
+	
+		<quest id="challenge_survivor2">
+		<property name="name_key" value="survivor2_quest" param1="name"/>
+		<property name="subtitle_key" value="survivor2_quest" param1="name"/>
+		<property name="description_key" value="survivor2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_campfire"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="survivor2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunBowT1WoodenBow" phase="1"/>
+		<objective type="EntityKill" id="animalStag" value="10" phase="1"/>
+        <objective type="EntityKill" id="animalDoe" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieJoeFeral" value="5" phase="1"/>
+        <objective type="EntityKill" id="zombieTomClarkFeral" value="5" phase="1"/>
+				
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="1500" phase="1" />				
+				<reward type="Item" id="gunHandgunT1Pistol" value="1" />
+				<reward type="Item" id="ammo9mmBulletBall" value="200" />
+				<reward type="Item" id="ammoArrowIron" value="70" />
+				<reward type="Quest" id="challenge_survivor3" />
+	</quest>
+	
+		<quest id="challenge_survivor3">
+		<property name="name_key" value="survivor3_quest" param1="name"/>
+		<property name="subtitle_key" value="survivor3_quest" param1="name"/>
+		<property name="description_key" value="survivor3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_campfire"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="survivor3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunHandgunT1Pistol" phase="1"/>
+		<objective type="EntityKill" id="animalBear" value="2" phase="1"/>
+        <objective type="EntityKill" id="animalWolf" value="4" phase="1"/>
+		<objective type="EntityKill" id="animalCoyote" value="5" phase="1"/>
+		<objective type="EntityKill" id="animalMountainLion" value="2" phase="1"/>
+		<objective type="EntityKill" id="animalZombieVulture" value="2" phase="1"/>
+        <objective type="EntityKill" id="animalZombieDog" value="3" phase="1"/>
+		<objective type="EntityKill" id="animalSnake" value="4" phase="1"/>
+		<objective type="EntityKill" id="animalBoar" value="5" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="2000"/>
+				<reward type="Item" id="handgunsSkillMagazine" value="10" />
+				<reward type="Item" id="campfire" value="1" />				
+				<reward type="Item" id="drugPainkillers" value="3" />
+				<reward type="Item" id="drinkJarPureMineralWater" value="5" />
+				<reward type="Item" id="meleeToolFlashlight02" value="1" />
+				<reward type="Item" id="bowsSkillMagazine" value="10" />
+				<reward type="Item" id="toolCookingPot" value="1" />
+				<reward type="Item" id="medicalFirstAidKit" value="2" />
+				<reward type="Item" id="seeds" value="8" />
+				<reward type="Item" id="bladesSkillMagazine" value="10" />
+				<reward type="Item" id="seedSkillMagazine" value="5" />
+				<reward type="Item" id="armorSkillMagazine" value="5" />
+				<reward type="Item" id="repairToolsSkillMagazine" value="10" />
+				<reward type="Item" id="ammoArrowIron" value="500" />
+				<reward type="Item" id="ammo9mmBulletBall" value="500" />
+				<reward type="Item" id="bookLuckyLooterDukes" value="1" />
+				<reward type="Item" id="bookLuckyLooterAmmunition" value="1" />
+				<reward type="Item" id="bookLuckyLooterBrass" value="1" />
+				<reward type="Item" id="bookLuckyLooterLead" value="1" />
+				<reward type="Item" id="bookLuckyLooterBooks" value="1" />
+				<reward type="Item" id="bookLuckyLooterFood" value="1" />
+				<reward type="Item" id="bookLuckyLooterMedical" value="1" />
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- SURVIVOR -->
+<!-- BRUISER -->
+	<quest id="challenge_bruiser1">
+		<property name="name_key" value="bruiser1_quest" param1="name"/>
+		<property name="subtitle_key" value="bruiser1_quest" param1="name"/>
+		<property name="description_key" value="bruiser1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_club"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="bruiser1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="meleeWpnKnucklesT0LeatherKnuckles" phase="1"/>
+		<objective type="EntityKill" id="zombieJoe" value="50" phase="1"/>
+        <objective type="EntityKill" id="zombieMaleHazmat" value="50" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="1000"/>
+				<reward type="Item" id="drinkJarBlackStrapCoffee" value="2" />
+				<reward type="Item" id="meleeWpnClubT1BaseballBat" value="1" />
+				<reward type="Quest" id="challenge_bruiser2" />	
+
+		</quest>
+	
+		<quest id="challenge_bruiser2">
+		<property name="name_key" value="bruiser2_quest" param1="name"/>
+		<property name="subtitle_key" value="bruiser2_quest" param1="name"/>
+		<property name="description_key" value="bruiser2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_club"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="bruiser2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="meleeWpnClubT1BaseballBat" phase="1"/>
+		<objective type="EntityKill" id="zombieInmateFeral" value="75" phase="1"/>
+        <objective type="EntityKill" id="zombieMoeFeral" value="75" phase="1"/>
+				
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="1500" phase="1" />
+				<reward type="Item" id="meleeWpnBatonT2StunBaton" value="1" />
+				<reward type="Item" id="medicalFirstAidBandage" value="10" />
+				<reward type="Item" id="medicalFirstAidKit" value="25" />
+				<reward type="Item" id="foodHoney" value="5" />
+				<reward type="Quest" id="challenge_bruiser3" />
+	</quest>
+	
+		<quest id="challenge_bruiser3">
+		<property name="name_key" value="bruiser3_quest" param1="name"/>
+		<property name="subtitle_key" value="bruiser3_quest" param1="name"/>
+		<property name="description_key" value="bruiser3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_club"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="bruiser3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="meleeWpnBatonT2StunBaton" phase="1"/>
+		<objective type="EntityKill" id="zombieInmateFeral" value="75" phase="1"/>
+        <objective type="EntityKill" id="zombieMoeFeral" value="75" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="2000"/>
+				<reward type="Item" id="meleeWpnKnucklesT3SteelKnuckles" value="1" />				
+				<reward type="Item" id="armorSkillMagazine" value="10" />
+				<reward type="Item" id="knucklesSkillMagazine" value="10" />
+				<reward type="Item" id="clubsSkillMagazine" value="10" />
+				<reward type="Item" id="sledgehammersSkillMagazine" value="10" />
+				<reward type="Item" id="drugAntibiotics" value="5" />
+				<reward type="Item" id="drugPainkillers" value="3" />
+				<reward type="Item" id="drinkJarBeer" value="10" />
+				<reward type="Item" id="resourceRepairKit" value="5" />				
+				<reward type="Item" id="drinkJarPureMineralWater" value="5" />
+				<reward type="Item" id="gunShotgunT2PumpShotgun" value="1" />
+				<reward type="Item" id="ammoShotgunShell" value="125" />
+				<reward type="Item" id="meleeWpnClubT3SteelClub" value="1" />
+				<reward type="Item" id="bookBarBrawling1BasicMoves" value="1" />
+				<reward type="Item" id="bookBarBrawling2DropABomb" value="1" />
+				<reward type="Item" id="bookBarBrawling3KillerInstinct" value="1" />
+				<reward type="Item" id="bookBarBrawling4FinishingMoves" value="1" />
+				<reward type="Item" id="bookBarBrawling5AdrenalineHealing" value="1" />
+				<reward type="Item" id="bookBarBrawling6RageMode" value="1" />
+				<reward type="Item" id="bookBarBrawling7BoozedUp" value="1" />
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- BRUISER -->
+<!-- MEDIC -->
+	<quest id="challenge_medic1">
+		<property name="name_key" value="medic1_quest" param1="name"/>
+		<property name="subtitle_key" value="medic1_quest" param1="name"/>
+		<property name="description_key" value="medic1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_medical"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="medic1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceCloth" value="100" phase="1"/>
+		<objective type="Craft" id="medicalBandage" value="10" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="500"/>
+				<reward type="Quest" id="challenge_medic2" />		
+
+		</quest>
+	
+		<quest id="challenge_medic2">
+		<property name="name_key" value="medic2_quest" param1="name"/>
+		<property name="subtitle_key" value="medic2_quest" param1="name"/>
+		<property name="description_key" value="medic2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_medical"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="medic2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceCloth" value="100" phase="1"/>
+		<objective type="FetchKeep" id="medicalAloeCream" value="100" phase="1"/>
+		<objective type="Craft" id="medicalFirstAidBandage" value="100" phase="1"/>
+				
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="750" phase="1" />				
+				<reward type="Quest" id="challenge_medic3" />
+	</quest>
+	
+		<quest id="challenge_medic3">
+		<property name="name_key" value="medic3_quest" param1="name"/>
+		<property name="subtitle_key" value="medic3_quest" param1="name"/>
+		<property name="description_key" value="medic3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_medical"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="medic3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="medicalBloodBag" value="100" phase="1"/>
+		<objective type="FetchKeep" id="drinkJarBeer" value="100" phase="1"/>
+		<objective type="FetchKeep" id="medicalBandage" value="500" phase="1"/>
+		<objective type="FetchKeep" id="resourceSewingKit" value="100" phase="1"/>
+		<objective type="Craft" id="medicalFirstAidKit" value="100" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="1000"/>
+				<reward type="Item" id="workstationSkillMagazine" value="10" />
+				<reward type="Item" id="medicalSkillMagazine" value="10" />
+				<reward type="Item" id="handgunsSkillMagazine" value="10" />
+				<reward type="Item" id="gunHandgunT1Pistol" value="1" />
+				<reward type="Item" id="ammo9mmBulletBall" value="100" />				
+				<reward type="Item" id="drugPainkillers" value="8" />
+				<reward type="Item" id="medicalAloeCream" value="2" />
+				<reward type="Item" id="medicalFirstAidKit" value="10" />
+				<reward type="Item" id="medicalSplint" value="5" />
+				<reward type="Item" id="medicalPlasterCast" value="5" />
+				<reward type="Item" id="drugHerbalAntibiotics" value="2" />
+				<reward type="Item" id="drugAntibiotics" value="5" />
+				<reward type="Item" id="foodHoney" value="5" />
+				<reward type="Item" id="drinkJarPureMineralWater" value="5" />
+				<reward type="Item" id="toolBeaker" value="1" />
+				<reward type="Item" id="drinkJarBeer" value="5" />
+				<reward type="Item" id="foodSkillMagazine" value="10" />
+				<reward type="Item" id="bowsSkillMagazine" value="10" />
+				<reward type="Item" id="armorSkillMagazine" value="10" />
+				<reward type="Item" id="bladesSkillMagazine" value="10" />
+				<reward type="Item" id="bookWasteTreasuresHoney" value="1" />
+				<reward type="Item" id="bookWasteTreasuresCoffins" value="1" />
+				<reward type="Item" id="bookWasteTreasuresAcid" value="1" />
+				<reward type="Item" id="bookWasteTreasuresWater" value="1" />
+				<reward type="Item" id="bookWasteTreasuresDoors" value="1" />				
+				<reward type="Item" id="bookWasteTreasuresCloth" value="1" />
+				<reward type="Item" id="bookWasteTreasuresSinks" value="1" />				
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- MEDIC -->
+<!-- MECHANIC -->
+	<quest id="challenge_mechanic1">
+		<property name="name_key" value="mechanic1_quest" param1="name"/>
+		<property name="subtitle_key" value="mechanic1_quest" param1="name"/>
+		<property name="description_key" value="mechanic1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_hammer"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="mechanic1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceForgedIron" value="25" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="25" phase="1"/>
+		<objective type="Craft" id="resourceRepairKit" value="25" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="500"/>				
+				<reward type="Quest" id="challenge_mechanic2" />		
+
+		</quest>
+	
+		<quest id="challenge_mechanic2">
+		<property name="name_key" value="mechanic2_quest" param1="name"/>
+		<property name="subtitle_key" value="mechanic2_quest" param1="name"/>
+		<property name="description_key" value="mechanic2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_hammer"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="mechanic2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceOilShale" value="5000" phase="1"/>
+		<objective type="Craft" id="ammoGasCan" value="10000" phase="1"/>
+				
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="750" phase="1" />				
+				<reward type="Quest" id="challenge_mechanic3" />
+	</quest>
+	
+		<quest id="challenge_mechanic3">
+		<property name="name_key" value="mechanic3_quest" param1="name"/>
+		<property name="subtitle_key" value="mechanic3_quest" param1="name"/>
+		<property name="description_key" value="mechanic3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_hammer"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="mechanic3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceForgedIron" value="12" phase="1"/>
+		<objective type="FetchKeep" id="resourceMechanicalParts" value="8" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="4" phase="1"/>
+		<objective type="FetchKeep" id="resourceLeather" value="4" phase="1"/>
+		<objective type="FetchKeep" id="resourceElectricParts" value="3" phase="1"/>
+		<objective type="FetchKeep" id="resourceSpring" value="2" phase="1"/>
+		<objective type="FetchKeep" id="resourceMetalPipe" value="6" phase="1"/>
+		<objective type="FetchKeep" id="resourceHeadlight" value="1" phase="1"/>		
+		<objective type="FetchKeep" id="resourceScrapPolymers" value="26" phase="1"/>
+		<objective type="FetchKeep" id="resourceOil" value="2" phase="1"/>
+		<objective type="FetchKeep" id="resourceCoal" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceAcid" value="2" phase="1"/>
+		<objective type="FetchKeep" id="smallEngine" value="1" phase="1"/>	
+		<objective type="FetchKeep" id="resourceScrapLead" value="180" phase="1"/>		
+		<objective type="Craft" id="vehicleMinibikeChassis" value="1" phase="1"/>
+		<objective type="Craft" id="vehicleMinibikeHandlebars" value="1" phase="1"/>
+		<objective type="Craft" id="vehicleWheels" value="2" phase="1"/>		
+		<objective type="Craft" id="carBattery" value="1" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="1000"/>
+				<reward type="Item" id="meleeToolSalvageT3ImpactDriver" value="1"/>
+				<reward type="Item" id="ammoGasCan" value="250,500"/>
+				<reward type="Item" id="casinoCoin" value="1000"/>
+				<reward type="Item" id="vehiclesSkillMagazine" value="10" />				
+				<reward type="Item" id="drinkJarBeer" value="5" />
+				<reward type="Item" id="medicalFirstAidBandage" value="5" />
+				<reward type="Item" id="meleeWpnBladeT3Machete" value="1" />
+				<reward type="Item" id="drinkJarCoffee" value="3" />
+				<reward type="Item" id="repairToolsSkillMagazine" value="10" />
+				<reward type="Item" id="salvageToolsSkillMagazine" value="10" />
+				<reward type="Item" id="vehiclesSkillMagazine" value="10" />
+				<reward type="Item" id="electricianSkillMagazine" value="10" />
+				<reward type="Item" id="armorSkillMagazine" value="10" />
+				<reward type="Item" id="handgunsSkillMagazine" value="10" />
+				<reward type="Item" id="roboticsSkillMagazine" value="10" />
+				<reward type="Item" id="bowsSkillMagazine" value="10" />
+				<reward type="Item" id="workstationSkillMagazine" value="10" />
+				<reward type="Item" id="gunHandgunT1Pistol" value="1" />
+				<reward type="Item" id="gunBotT3JunkDrone" value="1" />
+				<reward type="Item" id="ammo9mmBulletBall" value="100" />
+				<reward type="Item" id="meleeToolRepairT1ClawHammer" value="1" />
+				<reward type="Item" id="bookTechJunkie1Damage" value="1" />
+				<reward type="Item" id="bookTechJunkie2Maintenance" value="1" />				
+				<reward type="Item" id="bookTechJunkie3APAmmo" value="1" />
+				<reward type="Item" id="bookTechJunkie4Shells" value="1" />
+				<reward type="Item" id="bookTechJunkie5Repulsor" value="1" />
+				<reward type="Item" id="bookTechJunkie6BatonCharge" value="1" />				
+				<reward type="Item" id="bookTechJunkie7Hydraulics" value="1" />				
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- MECHANIC -->
+<!-- ENGINEER -->
+	<quest id="challenge_engineer1">
+		<property name="name_key" value="engineer1_quest" param1="name"/>
+		<property name="subtitle_key" value="engineer1_quest" param1="name"/>
+		<property name="description_key" value="engineer1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_safe"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="engineer1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceForgedIron" value="12" phase="1"/>
+		<objective type="FetchKeep" id="resourceMechanicalParts" value="4" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="2" phase="1"/>
+		<objective type="Craft" id="meleeToolSalvageT1Wrench" value="1" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="500"/>				
+				<reward type="Quest" id="challenge_engineer2" />			
+
+		</quest>
+	
+		<quest id="challenge_engineer2">
+		<property name="name_key" value="engineer2_quest" param1="name"/>
+		<property name="subtitle_key" value="engineer2_quest" param1="name"/>
+		<property name="description_key" value="engineer2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_safe"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="engineer2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="gunBotRoboticsParts" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedSteel" value="40" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceSpring" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceScrapLead" value="1500" phase="1"/>
+		<objective type="Craft" id="gunBotT2JunkTurret" value="1" phase="1"/>
+		<objective type="Craft" id="ammoJunkTurretRegular" value="500" phase="1"/>
+				
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="1000" phase="1" />				
+				<reward type="Quest" id="challenge_engineer3" />
+	</quest>
+	
+		<quest id="challenge_engineer3">
+		<property name="name_key" value="engineer3_quest" param1="name"/>
+		<property name="subtitle_key" value="engineer3_quest" param1="name"/>
+		<property name="description_key" value="engineer3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_safe"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="engineer3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceForgedIron" value="8" phase="1"/>
+		<objective type="FetchKeep" id="resourceElectricParts" value="22" phase="1"/>
+		<objective type="FetchKeep" id="resourceMechanicalParts" value="2" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="10" phase="1"/>
+		<objective type="Craft" id="electrictimerrelay" value="2" phase="1"/>
+		<objective type="Craft" id="motionsensor" value="2" phase="1"/>
+		<objective type="Craft" id="tripwirepost" value="2" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="1500"/>
+				<reward type="Item" id="ammo9mmBulletBall" value="100"/>
+				<reward type="Item" id="roboticsSkillMagazine" value="10"/>
+				<reward type="Item" id="trapsSkillMagazine" value="10"/>				
+				<reward type="Item" id="electricianSkillMagazine" value="10"/>
+				<reward type="Item" id="salvageToolsSkillMagazine" value="10"/>				
+				<reward type="Item" id="meleeToolWireTool" value="1" />
+				<reward type="Item" id="drinkJarBeer" value="5" />
+				<reward type="Item" id="medicalFirstAidBandage" value="5" />
+				<reward type="Item" id="meleeWpnBladeT3Machete" value="1" />
+				<reward type="Item" id="bladesSkillMagazine" value="10" />
+				<reward type="Item" id="armorSkillMagazine" value="10" />
+				<reward type="Item" id="vehiclesSkillMagazine" value="10" />
+				<reward type="Item" id="bowsSkillMagazine" value="10" />
+				<reward type="Item" id="handgunsSkillMagazine" value="10" />
+				<reward type="Item" id="ammoGasCan" value="350" />
+				<reward type="Item" id="drinkJarCoffee" value="5" />
+				<reward type="Item" id="gunBotT1JunkSledge" value="1" />
+				<reward type="Item" id="gunBotT2JunkTurret" value="1" />				
+				<reward type="Item" id="bookFiremansAlmanacSpeed" value="1" />
+				<reward type="Item" id="bookFiremansAlmanacAxes" value="1" />
+				<reward type="Item" id="bookFiremansAlmanacEquipment" value="1" />
+				<reward type="Item" id="bookFiremansAlmanacPrevention" value="1" />
+				<reward type="Item" id="bookFiremansAlmanacHarvest" value="1" />
+				<reward type="Item" id="bookFiremansAlmanacHeat" value="1" />
+				<reward type="Item" id="bookFiremansAlmanacMolotov" value="1" />			
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- ENGINEER -->
+<!-- FARMER -->
+	<quest id="challenge_farmer1">
+		<property name="name_key" value="farmer1_quest" param1="name"/>
+		<property name="subtitle_key" value="farmer1_quest" param1="name"/>
+		<property name="description_key" value="farmer1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_shopping_cart"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="farmer1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceRockSmall" value="5" phase="1"/>
+		<objective type="FetchKeep" id="resourceYuccaFibers" value="3" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="83" phase="1"/>
+		<objective type="FetchKeep" id="foodRottingFlesh" value="200" phase="1"/>
+		<objective type="FetchKeep" id="resourcePotassiumNitratePowder" value="500" phase="1"/>
+		<objective type="FetchKeep" id="resourceClayLump" value="2000" phase="1"/>
+		<objective type="Craft" id="meleeToolShovelT0StoneShovel" value="1" phase="1"/>
+		<objective type="Craft" id="farmPlotBlockVariantHelper" value="20" phase="1"/>
+		<objective type="BlockPlace" id="farmPlotBlockVariantHelper" value="20" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="750"/>				
+				<reward type="Quest" id="challenge_farmer2" />				
+
+		</quest>
+	
+		<quest id="challenge_farmer2">
+		<property name="name_key" value="farmer2_quest" param1="name"/>
+		<property name="subtitle_key" value="farmer2_quest" param1="name"/>
+		<property name="description_key" value="farmer2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_shopping_cart"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="farmer2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="drinkJarRiverWater" value="25" phase="1"/>
+		<objective type="FetchKeep" id="resourceCropChrysanthemumPlant" value="25" phase="1"/>
+		<objective type="FetchKeep" id="foodRawMeat" value="100" phase="1"/>
+		<objective type="FetchKeep" id="foodEgg" value="40" phase="1"/>
+		<objective type="FetchKeep" id="resourceRockSmall" value="5" phase="1"/>
+		<objective type="FetchKeep" id="toolCookingGrill" value="1" phase="1"/>
+		<objective type="FetchKeep" id="toolCookingPot" value="1" phase="1"/>
+		<objective type="Craft" id="drinkJarBoiledWater" value="25" phase="1"/>
+		<objective type="Craft" id="drinkJarRedTea" value="25" phase="1"/>
+		<objective type="Craft" id="campfire" value="1" phase="1"/>
+		<objective type="BlockPlace" id="campfire" value="1" phase="1"/>
+				
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="1250" phase="1" />				
+				<reward type="Quest" id="challenge_farmer3" />
+	</quest>
+	
+		<quest id="challenge_farmer3">
+		<property name="name_key" value="farmer3_quest" param1="name"/>
+		<property name="subtitle_key" value="farmer3_quest" param1="name"/>
+		<property name="description_key" value="farmer3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_shopping_cart"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="farmer3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="plantedPotato1" value="25" phase="1"/>
+		<objective type="FetchKeep" id="plantedCoffee1" value="25" phase="1"/>
+		<objective type="FetchKeep" id="plantedCorn1" value="25" phase="1"/>
+		<objective type="FetchKeep" id="plantedBlueberry1" value="25" phase="1"/>
+		<objective type="FetchKeep" id="plantedAloe1" value="25" phase="1"/>
+		<objective type="FetchKeep" id="plantedMushroom1" value="25" phase="1"/>
+		<objective type="FetchKeep" id="plantedYucca1" value="25" phase="1"/>
+		<objective type="FetchKeep" id="plantedHop1" value="25" phase="1"/>
+		<objective type="FetchKeep" id="plantedPumpkin1" value="25" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="100" phase="1"/>
+		<objective type="FetchKeep" id="foodRottingFlesh" value="250" phase="1"/>
+		<objective type="FetchKeep" id="resourcePotassiumNitratePowder" value="625" phase="1"/>
+		<objective type="FetchKeep" id="resourceClayLump" value="2500" phase="1"/>
+		<objective type="Craft" id="farmPlotBlockVariantHelper" value="25" phase="1"/>
+		<objective type="BlockPlace" id="farmPlotBlockVariantHelper" value="25" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="1750"/>
+				<reward type="Item" id="meleeToolShovelT1IronShovel" value="1"/>
+				<reward type="Item" id="harvestingToolsSkillMagazine" value="10"/>
+				<reward type="Item" id="seedSkillMagazine" value="10"/>
+				<reward type="Item" id="plantedPotato1" value="5"/>
+				<reward type="Item" id="plantedCoffee1" value="5"/>
+				<reward type="Item" id="plantedCorn1" value="5"/>
+				<reward type="Item" id="plantedBlueberry1" value="5"/>
+				<reward type="Item" id="plantedGoldenrod1" value="5"/>
+				<reward type="Item" id="plantedAloe1" value="5"/>
+				<reward type="Item" id="plantedMushroom1" value="5"/>
+				<reward type="Item" id="plantedYucca1" value="5"/>
+				<reward type="Item" id="plantedHop1" value="5"/>
+				<reward type="Item" id="plantedPumpkin1" value="5"/>
+				<reward type="Item" id="bladesSkillMagazine" value="10"/>
+				<reward type="Item" id="meleeWpnBladeT3Machete" value="1"/>
+				<reward type="Item" id="foodRawMeat" value="100"/>
+				<reward type="Item" id="foodEgg" value="40"/>
+				<reward type="Item" id="foodSkillMagazine" value="10"/>				
+				<reward type="Item" id="drinkJarBeer" value="5"/>
+				<reward type="Item" id="drinkJarGrandpasAwesomeSauce" value="2"/>
+				<reward type="Item" id="drinkJarGrandpasMoonshine" value="5"/>
+				<reward type="Item" id="foodShamChowder" value="5"/>
+				<reward type="Item" id="drinkJarCoffee" value="5"/>
+				<reward type="Item" id="handgunsSkillMagazine" value="10"/>
+				<reward type="Item" id="armorSkillMagazine" value="5"/>
+				<reward type="Item" id="gunHandgunT1Pistol" value="5"/>
+				<reward type="Item" id="ammo9mmBulletBall" value="100"/>
+				<reward type="Item" id="meleeWpnSpearT3SteelSpear" value="1" />	
+				<reward type="Item" id="bookSpearHunter1Damage" value="1" />
+				<reward type="Item" id="bookSpearHunter2Maintenance" value="1" />
+				<reward type="Item" id="bookSpearHunter3Bleed" value="1" />
+				<reward type="Item" id="bookSpearHunter4KillMove" value="1" />
+				<reward type="Item" id="bookSpearHunter5RapidStrike" value="1" />
+				<reward type="Item" id="bookSpearHunter6PenetratingShaft" value="1" />
+				<reward type="Item" id="bookSpearHunter7QuickStrike" value="1" />		
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- FARMER -->
+ <!-- TERRORIST -->
+	<quest id="challenge_terrorist1">
+		<property name="name_key" value="terrorist1_quest" param1="name"/>
+		<property name="subtitle_key" value="terrorist1_quest" param1="name"/>
+		<property name="description_key" value="terrorist1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_explosion"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="terrorist1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<objective type="FetchKeep" id="resourceMechanicalParts" value="50" phase="1"/>
+		<objective type="FetchKeep" id="resourceGunPowder" value="350" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedIron" value="100" phase="1"/>
+		<objective type="FetchKeep" id="resourceSpring" value="25" phase="1"/>
+		<objective type="Craft" id="thrownGrenadeContact" value="25" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="750"/>				
+				<reward type="Quest" id="challenge_terrorist2" />					
+
+		</quest>
+	
+		<quest id="challenge_terrorist2">
+		<property name="name_key" value="terrorist2_quest" param1="name"/>
+		<property name="subtitle_key" value="terrorist2_quest" param1="name"/>
+		<property name="description_key" value="terrorist2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_explosion"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="terrorist2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunMGT0PipeMachineGun" phase="1"/>
+		<objective type="EntityKill" id="zombieBusinessMan" value="10" phase="1"/>
+        <objective type="EntityKill" id="zombieNurse" value="10" phase="1"/>
+		<objective type="EntityKill" id="zombieSoldierFeral" value="3" phase="1"/>
+        <objective type="EntityKill" id="zombieFatCop" value="1" phase="1"/>
+				
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="1250" />				
+				<reward type="Item" id="gunMGT1AK47" value="1"/>
+				<reward type="Item" id="ammo762mmBulletBall" value="500"/>				
+				<reward type="Quest" id="challenge_terrorist3" />
+	</quest>
+	
+		<quest id="challenge_terrorist3">
+		<property name="name_key" value="terrorist3_quest" param1="name"/>
+		<property name="subtitle_key" value="terrorist3_quest" param1="name"/>
+		<property name="description_key" value="terrorist3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_explosion"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="terrorist3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunMGT1AK47" phase="1"/>
+		<objective type="EntityKill" id="zombieInmate" value="20" phase="1"/>
+        <objective type="EntityKill" id="zombieDemolition" value="1" phase="1"/>
+		<objective type="EntityKill" id="zombieMutatedFeral" value="2" phase="1"/>
+        <objective type="EntityKill" id="zombieWightFeral" value="1" phase="1"/>
+		<objective type="FetchKeep" id="ammoGasCan" value="7500" phase="1"/>
+		<objective type="FetchKeep" id="resourceOil" value="25" phase="1"/>
+		<objective type="FetchKeep" id="resourceCloth" value="125" phase="1"/>
+		<objective type="Craft" id="thrownAmmoMolotovCocktail" value="25" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="1750"/>
+				<reward type="Item" id="thrownGrenadeContact" value="25" />
+				<reward type="Item" id="thrownAmmoPipeBomb" value="5"/>
+				<reward type="Item" id="explosivesSkillMagazine" value="10"/>
+				<reward type="Item" id="mineCandyTin" value="2"/>
+				<reward type="Item" id="thrownAmmoMolotovCocktail" value="5"/>
+				<reward type="Item" id="thrownTimedCharge" value="2"/>
+				<reward type="Item" id="mineCookingPot" value="10"/>
+				<reward type="Item" id="mineAirFilter" value="10"/>				
+				<reward type="Item" id="toolCookingPot" value="10" />
+				<reward type="Item" id="armorSkillMagazine" value="10" />
+				<reward type="Item" id="trapsSkillMagazine" value="10" />
+				<reward type="Item" id="machineGunsSkillMagazine" value="10" />
+				<reward type="Item" id="resourceScrapIron" value="50" />
+				<reward type="Item" id="resourceGunPowder" value="50" />
+				<reward type="Item" id="resourceNail" value="50" />
+				<reward type="Item" id="resourceSpring" value="50" />				
+				<reward type="Item" id="bookUrbanCombatAdrenalineRush" value="1" />
+				<reward type="Item" id="bookUrbanCombatCigar" value="1" />
+				<reward type="Item" id="bookUrbanCombatRoomClearing" value="1" />
+				<reward type="Item" id="bookUrbanCombatJumping" value="1" />
+				<reward type="Item" id="bookUrbanCombatLandMines" value="1" />
+				<reward type="Item" id="bookUrbanCombatLanding" value="1" />
+				<reward type="Item" id="bookUrbanCombatSneaking" value="1" />	
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- TERRORIST -->
+<!-- MACHINE GUNNER -->
+	<quest id="challenge_machinegunner1">
+		<property name="name_key" value="machinegunner1_quest" param1="name"/>
+		<property name="subtitle_key" value="machinegunner1_quest" param1="name"/>
+		<property name="description_key" value="machinegunner1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_muscle"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="machinegunner1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunHandgunT1Pistol" phase="1"/>
+		<objective type="EntityKill" id="zombieJanitor" value="100" phase="1"/>
+        <objective type="FetchKeep" id="resourceForgedIron" value="8" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="4" phase="1"/>
+		<objective type="FetchKeep" id="resourceLeather" value="2" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="2" phase="1"/>
+		<objective type="Craft" id="meleeWpnBladeT1HuntingKnife" value="1" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="1000"/>
+				<reward type="Item" id="ammo762mmBulletBall" value="100"/>				
+				<reward type="Item" id="gunMGT1AK47" value="1"/>
+				<reward type="Quest" id="challenge_machine gunner2" />						
+
+		</quest>
+	
+		<quest id="challenge_machinegunner2">
+		<property name="name_key" value="machinegunner2_quest" param1="name"/>
+		<property name="subtitle_key" value="machinegunner2_quest" param1="name"/>
+		<property name="description_key" value="machinegunner2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_muscle"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="machinegunner2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunMGT1AK47" phase="1"/>
+		<objective type="EntityKill" id="zombieJanitorFeral" value="200" phase="1"/>
+        <objective type="FetchKeep" id="meleeWpnKnucklesT3SteelKnucklesParts" value="1" phase="1"/>
+		<objective type="FetchKeep" id="meleeWpnBladeT3MacheteParts" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedSteel" value="20" phase="1"/>
+		<objective type="FetchKeep" id="resourceLeather" value="3" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="6" phase="1"/>
+		<objective type="Craft" id="meleeWpnKnucklesT3SteelKnuckles" value="1" phase="1"/>
+		<objective type="Craft" id="meleeWpnBladeT3Machete" value="1" phase="1"/>
+				
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="1500" />				
+				<reward type="Item" id="gunMGT3M60" value="1"/>
+				<reward type="Item" id="ammo762mmBulletBall" value="5000"/>
+				<reward type="Item" id="drinkJarBoiledWater" value="10"/>
+				<reward type="Quest" id="challenge_machine gunner3" />
+	</quest>
+	
+		<quest id="challenge_machinegunner3">
+		<property name="name_key" value="machinegunner3_quest" param1="name"/>
+		<property name="subtitle_key" value="machinegunner3_quest" param1="name"/>
+		<property name="description_key" value="machinegunner3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_muscle"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="machinegunner3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunMGT3M60" phase="1"/>
+		<objective type="EntityKill" id="zombieSoldierRadiated" value="500" phase="1"/>
+		<objective type="EntityKill" id="zombieBikerFeral" value="100" phase="1"/>
+		<reward type="Quest" id="machine gunner_visit_trader3" />
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="2000"/>
+				<reward type="Item" id="thrownGrenade" value="15"/>
+				<reward type="Item" id="bladesSkillMagazine" value="10"/>
+				<reward type="Item" id="knucklesSkillMagazine" value="10"/>
+				<reward type="Item" id="machineGunsSkillMagazine" value="10"/>
+				<reward type="Item" id="ammo9mmBulletBall" value="60"/>
+				<reward type="Item" id="thrownGrenadeContact" value="8"/>
+				<reward type="Item" id="thrownTimedCharge" value="10"/>				
+				<reward type="Item" id="medicalFirstAidKit" value="10" />
+				<reward type="Item" id="resourceRepairKit" value="10" />
+				<reward type="Item" id="ammo762mmBulletBall" value="500" />
+				<reward type="Item" id="handgunsSkillMagazine" value="10" />
+				<reward type="Item" id="gunHandgunT1Pistol" value="1" />				
+				<reward type="Item" id="bookAutoWeaponsDamage" value="1" />
+				<reward type="Item" id="bookAutoWeaponsRagdoll" value="1" />
+				<reward type="Item" id="bookAutoWeaponsMaintenance" value="1" />
+				<reward type="Item" id="bookAutoWeaponsRecoil" value="1" />
+				<reward type="Item" id="bookAutoWeaponsDrumMag" value="1" />
+				<reward type="Item" id="bookAutoWeaponsUncontrolledBurst" value="1" />
+				<reward type="Item" id="bookAutoWeaponsMachineGuns" value="1" />
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- MACHINE GUNNER -->
+<!-- MARINE -->
+	<quest id="challenge_marine1">
+		<property name="name_key" value="marine1_quest" param1="name"/>
+		<property name="subtitle_key" value="marine1_quest" param1="name"/>
+		<property name="description_key" value="marine1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_marksmanship"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="marine1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunHandgunT1Pistol" phase="1"/>
+		<objective type="EntityKill" id="zombieLumberjack" value="100" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="1000"/>
+				<reward type="Item" id="ammo9mmBulletBall" value="500"/>
+				<reward type="Item" id="gunHandgunT3SMG5" value="1"/>
+				<reward type="Quest" id="challenge_marine2" />						
+
+		</quest>
+	
+		<quest id="challenge_marine2">
+		<property name="name_key" value="marine2_quest" param1="name"/>
+		<property name="subtitle_key" value="marine2_quest" param1="name"/>
+		<property name="description_key" value="marine2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_marksmanship"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="marine2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunHandgunT3SMG5" phase="1"/>
+		<objective type="EntityKill" id="zombieLumberjackFeral" value="200" phase="1"/>
+				
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="1500" />
+				<reward type="Item" id="gunShotgunT3AutoShotgun" value="1"/>
+				<reward type="Item" id="ammoShotgunShell" value="2000"/>				
+				<reward type="Quest" id="challenge_marine3" />
+	</quest>
+	
+		<quest id="challenge_marine3">
+		<property name="name_key" value="marine3_quest" param1="name"/>
+		<property name="subtitle_key" value="marine3_quest" param1="name"/>
+		<property name="description_key" value="marine3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_marksmanship"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="marine3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunShotgunT3AutoShotgun" phase="1"/>
+		<objective type="EntityKill" id="zombieLumberjackRadiated" value="300" phase="1"/>
+		<objective type="FetchKeep" id="gunHandgunT1PistolParts" value="1" phase="1"/>
+		<objective type="FetchKeep" id="meleeWpnBladeT3MacheteParts" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedIron" value="5" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceSpring" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedSteel" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceScrapPolymers" value="5" phase="1"/>
+		<objective type="FetchKeep" id="resourceOil" value="2" phase="1"/>
+		<objective type="FetchKeep" id="resourceMechanicalParts" value="2" phase="1"/>
+		<objective type="Craft" id="gunHandgunT1Pistol" value="1" phase="1"/>
+		<objective type="Craft" id="modGunSoundSuppressorSilencer" value="1" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="2000"/>
+				<reward type="Item" id="shotgunsSkillMagazine" value="10"/>
+				<reward type="Item" id="explosivesSkillMagazine" value="10"/>
+				<reward type="Item" id="gunExplosivesT3RocketLauncher" value="1"/>
+				<reward type="Item" id="ammoRocketHE" value="25"/>
+				<reward type="Item" id="thrownGrenade" value="5"/>				
+				<reward type="Item" id="drinkJarPureMineralWater" value="5" />
+				<reward type="Item" id="armorSkillMagazine" value="10" />
+				<reward type="Item" id="roboticsSkillMagazine" value="10" />
+				<reward type="Item" id="trapsSkillMagazine" value="10" />
+				<reward type="Item" id="thrownGrenade" value="5" />
+				<reward type="Item" id="modGunSoundSuppressorSilencerSchematic" value="1" />
+				<reward type="Item" id="modGunSoundSuppressorSilencer" value="1" />
+				<reward type="Item" id="ammoShotgunShell" value="100" />
+				<reward type="Item" id="thrownGrenadeContact" value="10" />
+				<reward type="Item" id="thrownTimedCharge" value="5" />
+				<reward type="Item" id="bookShotgunMessiahBreachingSlugs" value="1" />
+				<reward type="Item" id="bookShotgunMessiahDamage" value="1" />
+				<reward type="Item" id="bookShotgunMessiahLimbShot" value="1" />
+				<reward type="Item" id="bookShotgunMessiahMaintenance" value="1" />
+				<reward type="Item" id="bookShotgunMessiahMagazine" value="1" />
+				<reward type="Item" id="bookShotgunMessiahPartyStarter" value="1" />
+				<reward type="Item" id="bookShotgunMessiahSlugs" value="1" />
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- MARINE -->
+ <!-- ASSASSIN -->
+	<quest id="challenge_assassin1">
+		<property name="name_key" value="assassin1_quest" param1="name"/>
+		<property name="subtitle_key" value="assassin1_quest" param1="name"/>
+		<property name="description_key" value="assassin1_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_stealth"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="assassin1_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="meleeWpnBladeT1HuntingKnife" phase="1"/>
+		<objective type="EntityKill" id="zombieBusinessMan" value="100" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedIron" value="8" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="4" phase="1"/>
+		<objective type="FetchKeep" id="resourceLeather" value="2" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="2" phase="1"/>
+		<objective type="Craft" id="meleeWpnBladeT1HuntingKnife" value="1" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+				
+				<reward type="Exp" value="1000"/>
+				<reward type="Item" id="gunBowT1WoodenBow" value="1"/>
+				<reward type="Item" id="ammoArrowIron" value="200"/>
+				<reward type="Quest" id="challenge_assassin2" />							
+
+		</quest>
+	
+		<quest id="challenge_assassin2">
+		<property name="name_key" value="assassin2_quest" param1="name"/>
+		<property name="subtitle_key" value="assassin2_quest" param1="name"/>
+		<property name="description_key" value="assassin2_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_stealth"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="assassin2_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunBowT1WoodenBow" phase="1"/>
+		<objective type="EntityKill" id="zombieTomClarkFeral" value="200" phase="1"/>
+		<objective type="FetchKeep" id="gunBowT1WoodenBowParts" value="13" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedSteel" value="100" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="13" phase="1"/>
+		<objective type="FetchKeep" id="resourceLeather" value="25" phase="1"/>
+		<objective type="Craft" id="gunBowT3CompoundCrossbow" value="1" phase="1"/>
+				
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+	
+				<reward type="Exp" value="1500" phase="1" />
+				<reward type="Item" id="gunBowT3CompoundCrossbow" value="1"/>
+				<reward type="Item" id="ammoArrowFlaming" value="1250"/>				
+				<reward type="Quest" id="challenge_assassin3" />
+	</quest>
+	
+		<quest id="challenge_assassin3">
+		<property name="name_key" value="assassin3_quest" param1="name"/>
+		<property name="subtitle_key" value="assassin3_quest" param1="name"/>
+		<property name="description_key" value="assassin3_quest_offer" param1="offer"/>
+		<property name="icon" value="ui_game_symbol_stealth"/>
+		<property name="repeatable" value="false"/>
+		<property name="category_key" value="quest"/>
+		<property name="offer_key" value="assassin3_quest_offer" param1="offer"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		
+		<requirement type="Quests.Requirements.RequirementHolding" id="gunBowT3CompoundCrossbow" phase="1"/>
+		<objective type="EntityKill" id="zombieNurseRadiated" value="500" phase="1"/>
+		<objective type="FetchKeep" id="gunHandgunT1PistolParts" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedIron" value="5" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceSpring" value="1" phase="1"/>		
+		<objective type="FetchKeep" id="resourceForgedSteel" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceScrapPolymers" value="5" phase="1"/>
+		<objective type="FetchKeep" id="resourceOil" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceMechanicalParts" value="2" phase="1"/>
+		<objective type="Craft" id="gunHandgunT1Pistol" value="1" phase="1"/>
+		<objective type="Craft" id="modGunSoundSuppressorSilencer" value="1" phase="1"/>
+		
+		<objective type="ReturnToNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+		</objective>
+		
+				<reward type="Exp" value="2000"/>
+				<reward type="Item" id="ammo762mmBulletBall" value="200"/>
+				<reward type="Item" id="bowsSkillMagazine" value="10" />
+				<reward type="Item" id="bladesSkillMagazine" value="10" />
+				<reward type="Item" id="riflesSkillMagazine" value="10"/>
+				<reward type="Item" id="gunRifleT2MarksmanRifle" value="1"/>
+				<reward type="Item" id="resourceLockPick" value="25"/>
+				<reward type="Item" id="meleeWpnClubT3SteelClub" value="1"/>				
+				<reward type="Item" id="armorSkillMagazine" value="10" />
+				<reward type="Item" id="handgunsSkillMagazine" value="10" />
+				<reward type="Item" id="ammoArrowSteelAP" value="100" />
+				<reward type="Item" id="drugPainkillers" value="5" />
+				<reward type="Item" id="drinkJarPureMineralWater" value="10" />
+				<reward type="Item" id="medicalFirstAidBandage" value="5" />
+				<reward type="Item" id="gunHandgunT3DesertVulture" value="1" />
+				<reward type="Item" id="modGunMagazineExtenderSchematic" value="1" />
+				<reward type="Item" id="modGunMagazineExtender" value="1" />
+				<reward type="Item" id="modGunFlashlightSchematic" value="1" />
+				<reward type="Item" id="modGunFlashlight" value="1" />
+				<reward type="Item" id="modArmorNightVision" value="1" />				
+				<reward type="Item" id="bookNightStalkerArchery" value="1" />
+				<reward type="Item" id="bookNightStalkerBlades" value="1" />
+				<reward type="Item" id="bookNightStalkerSilentNight" value="1" />
+				<reward type="Item" id="bookNightStalkerSlumberParty" value="1" />
+				<reward type="Item" id="bookNightStalkerStealthDamage" value="1" />
+				<reward type="Item" id="bookNightStalkerThiefAdrenaline" value="1" />
+				<reward type="Item" id="bookNightStalkerTwilightThief" value="1" />
+				<reward type="SkillPoints" value="15" />
+	</quest>
+<!-- ASSASSIN -->
+  </append>
+</Valmar>

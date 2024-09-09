@@ -1,0 +1,320 @@
+<Valmar>
+<append xpath="/lootcontainers">
+<!-- CLASSES-->
+<!-- HUNTER -->
+         <lootgroup name="HunterClass" count="all">    
+        <item name="armorRangerHelmet" count="1" />
+		<item name="armorRangerOutfit" count="1" />
+		<item name="armorRangerGloves" count="1" />
+		<item name="armorRangerBoots" count="1" />
+		<item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="2" />
+        <item name="gunRifleT0PipeRifle"/>
+		<item name="ammo762mmBulletBall" count="25"/>
+        <item name="challengeClassHunter" count="1"/>		
+        </lootgroup>      
+<!-- HUNTER -->
+<!-- BUILDER -->
+		<lootgroup name="BuilderClass" count="all">
+        <item name="armorLumberjackHelmet" count="1" />
+		<item name="armorLumberjackOutfit" count="1" />
+		<item name="armorLumberjackGloves" count="1" />
+		<item name="armorLumberjackBoots" count="1" />
+		<item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="2" />
+        <item name="resourceWood" count="500" />
+        <item name="gunHandgunT0PipePistol" count="1" />
+		<item name="ammo9mmBulletBall" count="25" />	
+        <item name="challengeClassBuilder" count="1"/>		
+        </lootgroup>
+<!-- BUILDER -->
+<!-- RIFLEMAN -->
+		<lootgroup name="RiflemanClass" count="all">
+        <item name="armorEnforcerHelmet" count="1" />
+		<item name="armorEnforcerOutfit" count="1" />
+		<item name="armorEnforcerGloves" count="1" />
+		<item name="armorEnforcerBoots" count="1" />
+		<item name="resourceSewingKit" count="1,5" />
+        <item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="2" />
+        <item name="meleeToolRepairT0StoneAxe" count="1"  />
+        <item name="gunRifleT0PipeRifle" count="1"  />
+		<item name="ammo762mmBulletBall" count="40"/>	
+		<item name="challengeClassRifleman" count="1"/>		
+        </lootgroup>
+<!-- RIFLEMAN -->
+<!-- GUNMAN -->
+		<lootgroup name="GunmanClass" count="all">
+        <item name="armorRaiderHelmet" count="1" />
+		<item name="armorRaiderOutfit" count="1" />
+		<item name="armorRaiderGloves" count="1" />
+		<item name="armorRaiderBoots" count="1" />
+		<item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="2" />
+		<item name="gunHandgunT1Pistol" count="1" />
+        <item name="meleeToolRepairT0StoneAxe" count="1"  />
+		<item name="ammo9mmBulletBall" count="40"/>
+		<item name="challengeClassGunman" count="1"/>		
+        </lootgroup>
+<!-- GUNMAN -->
+<!-- VETERAN -->
+		<lootgroup name="VeteranClass" count="all">
+        <item name="armorRogueHelmet" count="1" />
+		<item name="armorRogueOutfit" count="1" />
+		<item name="armorRogueGloves" count="1" />
+		<item name="armorRogueBoots" count="1" />
+		<item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="2" />
+		<item name="meleeWpnKnucklesT0LeatherKnuckles" count="1"  />
+        <item name="drugPainkillers" count="1" />
+        <item name="challengeClassVeteran" count="1"/>		
+        </lootgroup>
+<!-- VETERAN -->
+<!-- MINER -->
+		<lootgroup name="MinerClass" count="all">
+        <item name="armorMinerHelmet" count="1" />
+		<item name="armorMinerOutfit" count="1" />
+		<item name="armorMinerGloves" count="1" />
+		<item name="armorMinerBoots" count="1" />
+		<item name="resourceSewingKit" count="1,5" />
+        <item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="2" />
+        <item name="meleeToolTorch" count="4" />
+        <item name="resourceForgedIron" count="15" />
+		<item name="challengeClassMiner" count="1"/>		
+        </lootgroup>
+<!-- MINER -->
+<!-- SURVIVOR -->
+		<lootgroup name="SurvivorClass" count="all">
+        <item name="armorNomadHelmet" count="1" />
+		<item name="armorNomadOutfit" count="1" />
+		<item name="armorNomadGloves" count="1" />
+		<item name="armorNomadBoots" count="1" />
+		<item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="2" />
+		<item name="meleeToolTorch" count="6" />
+        <item name="gunBowT0PrimitiveBow" count="1" />
+		<item name="ammoArrowStone" count="150" />
+        <item name="meleeWpnBladeT0BoneKnife" count="1" />
+		<item name="challengeClassSurvivor" count="1"/>	
+        </lootgroup>
+<!-- SURVIVOR -->
+<!-- BRUISER -->
+		<lootgroup name="BruiserClass" count="all">
+        <item name="armorBikerHelmet" count="1" />
+		<item name="armorBikerOutfit" count="1" />
+		<item name="armorBikerGloves" count="1" />
+		<item name="armorBikerBoots" count="1" />
+		<item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="2" />
+		<item name="drinkJarBoiledWater" count="5" />
+        <item name="meleeWpnSledgeT1IronSledgehammer" count="1"  />		
+		<item name="meleeWpnKnucklesT0LeatherKnuckles" count="1"  />
+		<item name="meleeWpnBatonT0PipeBaton" count="1"  />
+        <item name="challengeClassBruiser" count="1"/>		
+		</lootgroup>
+<!-- BRUISER -->
+<!-- MEDIC -->
+		<lootgroup name="MedicClass" count="all">
+        <item name="armorAthleticHelmet" count="1" />
+		<item name="armorAthleticOutfit" count="1" />
+		<item name="armorAthleticGloves"  count="1" />
+		<item name="armorAthleticBoots" count="1" />
+		<item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="5" />
+		<item name="resourceSewingKit" count="1,5" />
+        <item name="meleeWpnBladeT1HuntingKnife" count="1"  />
+		<item name="meleeToolFlashlight02" count="1" />
+		<item name="gunBowT1WoodenBow" count="1"  />
+		<item name="ammoArrowIron" count="50" />
+		<item name="challengeClassMedic" count="1"/>		
+        </lootgroup>
+<!-- MEDIC -->
+<!-- MECHANIC -->
+		<lootgroup name="MechanicClass" count="all">    
+        <item name="armorScavengerHelmet" count="1" />
+		<item name="armorScavengerOutfit" count="1" />
+		<item name="armorScavengerGloves" count="1" />
+		<item name="armorScavengerBoots" count="1" />
+		<item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="2" />
+		<item name="meleeToolSalvageT1Wrench" count="1"  />
+		<item name="gunBowT1IronCrossbow" count="1"  />
+        <item name="ammoCrossbowBoltIron" count="120" />
+		<item name="gunHandgunT0PipePistol" count="1"  />
+        <item name="ammo9mmBulletBall" count="25" />
+		<item name="ammoGasCan" count="500" />
+		<item name="challengeClassMechanic" count="1"/>		
+        </lootgroup>
+<!-- MECHANIC -->
+<!-- ENGINEER -->
+		<lootgroup name="EngineerClass" count="all">    
+        <item name="armorPreacherHelmet" count="1" />
+		<item name="armorPreacherOutfit" count="1" />
+		<item name="armorPreacherGloves" count="1" />
+		<item name="armorPreacherBoots" count="1" />
+		<item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="2" />
+		<item name="gunHandgunT1Pistol" count="1"   />		
+		<item name="ammo9mmBulletBall" count="50" />
+		<item name="gunBowT1IronCrossbow" count="1"  />
+        <item name="ammoCrossbowBoltIron" count="120" />
+		<item name="challengeClassEngineer" count="1"/>		
+        </lootgroup>
+<!-- ENGINEER -->
+<!-- FARMER -->
+		<lootgroup name="FarmerClass" count="all">    
+        <item name="armorFarmerHelmet" count="1" />
+		<item name="armorFarmerOutfit" count="1" />
+		<item name="armorFarmerGloves" count="1" />
+		<item name="armorFarmerBoots" count="1" />
+		<item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="2" />
+		<item name="gunRifleT1HuntingRifle" count="1"  />
+		<item name="ammo762mmBulletBall" count="25" />
+		<item name="foodHoboStew" count="5" />
+		<item name="gunBowT0PrimitiveBow" count="1"  />
+        <item name="ammoArrowStone" count="120" />
+		<item name="challengeClassFarmer" count="1"/>		
+        </lootgroup>
+<!-- FARMER -->
+<!-- TERRORIST -->
+		<lootgroup name="TerroristClass" count="all">
+        <item name="armorNerdHelmet" count="1" />
+		<item name="armorNerdOutfit" count="1" />
+		<item name="armorNerdGloves" count="1" />
+		<item name="armorNerdBoots" count="1" />
+		<item group="cannedfood" count="10" />
+		<item name="drinkJarBoiledWater" count="10" />
+		<item name="medicalFirstAidBandage" count="2" />
+		<item name="gunMGT0PipeMachineGun" count="1"  />
+		<item name="ammo762mmBulletBall" count="250"/>
+		<item name="challengeClassTerrorist" count="1"/>		
+        </lootgroup>
+<!-- TERRORIST -->
+<!-- MACHINE GUNNER -->
+		<lootgroup name="MachineGunnerClass" count="all">
+        <item name="armorCommandoHelmet" count="1" />
+		<item name="armorNomadOutfit" count="1" />
+		<item name="armorBikerGloves" count="1" />
+		<item name="armorScavengerBoots" count="1" />
+		<item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="2" />		
+        <item name="gunHandgunT1Pistol" count="1"  />
+		<item name="ammo9mmBulletBall" count="100,250" />
+		<item name="resourceRepairKit" count="2" />
+		<item name="challengeClassMachineGunner" count="1"/>		
+		</lootgroup>
+<!-- MACHINE GUNNER -->
+<!-- MARINE -->
+		<lootgroup name="MarineClass" count="all">
+        <item name="armorCommandoHelmet" count="1" />
+		<item name="armorCommandoOutfit" count="1" />
+		<item name="armorCommandoGloves" count="1" />
+		<item name="armorCommandoBoots" count="1" />
+		<item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="2" />
+        <item name="drugPainkillers" count="2" />
+		<item name="gunHandgunT1Pistol" count="1" />
+		<item name="ammo9mmBulletBall" count="25" />
+		<item name="drugAntibiotics" count="2" />
+        <item name="resourceRepairKit" count="2" />		
+        <item name="meleeWpnBladeT1HuntingKnife" count="1" />
+		<item name="challengeClassMarine" count="1"/>		
+		</lootgroup>
+<!-- MARINE -->
+<!-- ASSASSIN -->
+		<lootgroup name="AssassinClass" count="all">
+        <item name="armorAssassinHelmet" count="1" />
+		<item name="armorAssassinOutfit" count="1" />
+		<item name="armorAssassinGloves" count="1" />
+		<item name="armorAssassinBoots" count="1" />
+		<item group="cannedfood" count="5" />
+		<item name="drinkJarBoiledWater" count="5" />
+		<item name="medicalFirstAidBandage" count="2" />		
+		<item name="meleeWpnBladeT1HuntingKnife" count="1" />		
+		<item name="drugAntibiotics" count="2" />
+        <item name="resourceRepairKit" count="2" />
+		<item name="challengeClassAssassin" count="1"/>		
+		</lootgroup>
+<!-- ASSASSIN -->
+ <!-- Hunter Class -->  
+        <lootcontainer name="hunter" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="HunterClass" />
+		</lootcontainer>  
+<!-- Builder Class -->
+        <lootcontainer name="builder" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate">
+        <item group="BuilderClass" />
+        </lootcontainer>  
+<!-- Rifleman Class -->
+        <lootcontainer name="rifleman" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="RiflemanClass" />
+        </lootcontainer>  
+<!-- Gunman Class -->
+        <lootcontainer name="gunman" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="GunmanClass" />
+        </lootcontainer>  
+<!-- Veteran Class -->
+        <lootcontainer name="veteran" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="VeteranClass" />
+        </lootcontainer> 
+<!-- Bruiser Class -->
+        <lootcontainer name="bruiser" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="BruiserClass" />
+        </lootcontainer>  
+<!-- Miner Class -->
+        <lootcontainer name="miner" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="MinerClass" />
+        </lootcontainer>  
+<!-- Survivor Class -->
+        <lootcontainer name="survivor" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="SurvivorClass" />
+        </lootcontainer>  
+<!-- Medic Class -->
+        <lootcontainer name="medic" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="MedicClass" />
+        </lootcontainer>
+<!-- Mechanical Class -->
+		<lootcontainer name="mechanic" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="MechanicClass" />
+        </lootcontainer>
+<!-- Engineer Class -->
+		<lootcontainer name="engineer" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="EngineerClass" />
+        </lootcontainer>
+<!-- Farmer Class -->
+		<lootcontainer name="farmer" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="FarmerClass" />
+        </lootcontainer>
+<!-- Terrorist Class -->
+        <lootcontainer name="terrorist" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="TerroristClass" />
+        </lootcontainer>
+<!-- Machine Gunner Class -->
+		<lootcontainer name="machinegunner" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="MachineGunnerClass" />
+        </lootcontainer>
+<!-- Marine Class -->
+		<lootcontainer name="marine" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="MarineClass" />
+        </lootcontainer>
+<!-- Assassin Class -->
+		<lootcontainer name="assassin" count="1" size="8,9" destroy_on_close="true" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5" loot_quality_template="qualBaseTemplate" >
+        <item group="AssassinClass" />
+        </lootcontainer>
+</append>
+</Valmar>

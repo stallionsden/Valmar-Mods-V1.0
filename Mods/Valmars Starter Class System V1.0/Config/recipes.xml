@@ -1,0 +1,61 @@
+<Valmar>
+<append xpath="/recipes">
+	<!-- Classes Mod -->
+    <recipe name="Class - Hunter (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>
+	<recipe name="Class - Builder (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+	</recipe>
+    <recipe name="Class - Rifleman (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>
+    <recipe name="Class - Veteran (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>
+    <recipe name="Class - Bruiser(Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>
+    <recipe name="Class - Gunman (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>
+    <recipe name="Class - Miner (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>
+    <recipe name="Class - Survivor (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>
+    <recipe name="Class - Medic (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>
+	 <recipe name="Class - Mechanic (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>
+	<recipe name="Class - Engineer (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>
+	 <recipe name="Class - Farmer (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>	
+	 <recipe name="Class - Terrorist (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>
+	 <recipe name="Class - Machine Gunner (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>
+	<recipe name="Class - Marine (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>
+	 <recipe name="Class - Assassin (Locked)" count="1" scrapable="False" >
+	<ingredient name="classSelection" count="1" />
+    </recipe>	
+	
+	<recipe name="smallEngine" count="1" >
+	<ingredient name="resourceForgedSteel" count="30"/>
+	<ingredient name="resourceMechanicalParts" count="12"/>
+	<ingredient name="resourceElectricParts" count="8"/>
+	<ingredient name="resourceMetalPipe" count="10"/>
+	<ingredient name="resourceSpring" count="6"/>
+	</recipe>
+	</append>
+</Valmar>
