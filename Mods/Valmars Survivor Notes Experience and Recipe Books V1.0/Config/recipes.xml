@@ -3,8 +3,10 @@
       <!--Survivor Notes Mod --> 
 	<recipe name="studyDesk" count="1" scrapable="False">
     <ingredient name="resourceWood" count="85"/>
-	<ingredient name="resourceNail" count="2"/>
-	<ingredient name="officeChair01" count="1"/>	
+	<ingredient name="resourceNail" count="22"/>
+	<ingredient name="officeChair01VariantHelper" count="1"/>
+	<ingredient name="workbench" count="1"/>
+	<ingredient name="resourcePaint" count="13"/>
 	</recipe>
 	<!-- ******************** SURVIVOR NOTES TO PERK BOOKS ******************************** -->
   <recipe name="bookFiremansAlmanacHeat" count="1" craft_area="studyDesk" scrapable="False" >
