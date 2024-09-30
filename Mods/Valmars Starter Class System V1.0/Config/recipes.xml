@@ -50,9 +50,9 @@
 	<ingredient name="classSelection" count="1" />
     </recipe>
 
-	<recipe name="classSelection" count="1" craft_time="240" craft_area="workbench" is_trackable="true" craft_tool="toolForgeCrucible" scrapable="False" >
+	<recipe name="classSelection" count="1" craft_time="240" craft_area="workbench" is_trackable="true" scrapable="False" >
 	<ingredient name="resourcePaper" count="100" />
-	<ingredient name="resourceTestosteroneExtract" count="12" />
+	<ingredient name="resourceTestosteroneExtract" count="2" />
 	<ingredient name="resourceOil" count="66" />
 	<ingredient name="resourceLeather" count="44" />
 	<ingredient name="resourceSewingKit" count="8" />
@@ -62,7 +62,7 @@
 	<ingredient name="resourceForgedSteel" count="20" />
 	<ingredient name="resourceScrapBrass" count="12" />
 	<ingredient name="resourceOil" count="24" />
-	<ingredient name="resourceRawDiamond" count="8" />
+	<ingredient name="resourceRawDiamond" count="3" />
 	<ingredient name="resourceLegendaryParts" count="3" />
     </recipe>
 	
