@@ -138,11 +138,11 @@
 		<property name="add_to_tier_complete" value="false"/>
 		<property name="shareable" value="false"/>
 		
-		<requirement type="Quests.Requirements.RequirementHolding" id="meleeToolRepairT0StoneAxe" phase="1"/>
 		<objective type="FetchKeep" id="resourceWood" value="1000" phase="1"/>
-		<objective type="Craft" id="frameShapes:VariantHelper" value="100" phase="1"/>
-		<objective type="BlockPlace" id="frameShapes:VariantHelper" value="100" phase="1"/>
-		<objective type="BlockUpgrade" id="frameShapes:VariantHelper" value="100" phase="1"/>
+		<objective type="FetchKeep" id="resourceCobblestones" value="2000" phase="1"/>
+		<objective type="Craft" id="frameShapes:VariantHelper" value="200" phase="1"/>
+		<objective type="BlockPlace" id="frameShapes:VariantHelper" value="200" phase="1"/>
+		
 				
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>
@@ -173,12 +173,9 @@
 		<property name="shareable" value="false"/>
 		
 		<requirement type="Quests.Requirements.RequirementHolding" id="meleeToolRepairT1ClawHammer" phase="1"/>
-					<objective type="FetchKeep" id="resourceCobblestones" value="2000" phase="1"/>
-					<objective type="FetchKeep" id="resourceWood" value="1000" phase="1"/>
-					<objective type="Craft" id="frameShapes:VariantHelper" value="100" phase="1"/>
-					<objective type="BlockPlace" id="frameShapes:VariantHelper" value="100" phase="1"/>
-					<objective type="BlockUpgrade" id="frameShapes:VariantHelper" value="100" phase="1"/>
-					<objective type="BlockUpgrade" id="woodShapes:VariantHelper" value="100" phase="1"/>
+		<objective type="BlockUpgrade" id="frameShapes:VariantHelper" value="200" phase="1"/>
+		<objective type="BlockUpgrade" id="woodShapes:VariantHelper" value="200" phase="1"/>
+		
 						
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>
@@ -207,13 +204,13 @@
 		<property name="add_to_tier_complete" value="false"/>
 		<property name="shareable" value="false"/>
 		
-		<requirement type="Quests.Requirements.RequirementHolding" id="meleeToolPickT1IronPickaxe" phase="1"/>
-					<objective type="FetchKeep" id="resourceCobblestones" value="5000" phase="1"/>
+					<objective type="FetchKeep" id="resourceCobblestones" value="1000" phase="1"/>
 					<objective type="FetchKeep" id="resourceWood" value="5000" phase="1"/>
 					<objective type="Craft" id="frameShapes:VariantHelper" value="100" phase="1"/>
 					<objective type="BlockPlace" id="frameShapes:VariantHelper" value="100" phase="1"/>
 					<objective type="BlockUpgrade" id="frameShapes:VariantHelper" value="100" phase="1"/>
 					<objective type="BlockUpgrade" id="woodShapes:VariantHelper" value="100" phase="1"/>
+		
 		
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>
@@ -641,7 +638,6 @@
 		<property name="add_to_tier_complete" value="false"/>
 		<property name="shareable" value="false"/>
 		
-		<requirement type="Quests.Requirements.RequirementHolding" id="meleeToolRepairT0StoneAxe" phase="1"/>
 			<objective type="FetchKeep" id="resourceRockSmall" value="500" phase="1"/>
 			<objective type="FetchKeep" id="resourceScrapIron" value="500" phase="1"/>
 			<objective type="FetchKeep" id="resourceScrapLead" value="500" phase="1"/>
@@ -678,7 +674,7 @@
 		
 		<requirement type="Quests.Requirements.RequirementHolding" id="meleeToolPickT1IronPickaxe" phase="1"/>
 			<objective type="FetchKeep" id="resourceRockSmall" value="1000" phase="1"/>
-			<objective type="FetchKeep" id="resourceIronFragment" value="1000" phase="1"/>
+			<objective type="FetchKeep" id="resourceOilShale" value="250" phase="1"/>
 			<objective type="FetchKeep" id="resourceScrapLead" value="1000" phase="1"/>
 			<objective type="FetchKeep" id="resourceCoal" value="1000" phase="1"/>
 			<objective type="FetchKeep" id="resourcePotassiumNitratePowder" value="1500" phase="1"/>
@@ -710,7 +706,6 @@
 		<property name="add_to_tier_complete" value="false"/>
 		<property name="shareable" value="false"/>
 		
-		<requirement type="Quests.Requirements.RequirementHolding" id="meleeToolPickT1IronPickaxe" phase="1"/>
 		<objective type="FetchKeep" id="resourceRockSmall" value="1000" phase="1"/>
 		<objective type="FetchKeep" id="resourceClayLump" value="1000" phase="1"/>
 		<objective type="FetchKeep" id="resourceCobblestones" value="1500" phase="1"/>
@@ -895,8 +890,8 @@
 		<property name="shareable" value="false"/>
 		
 		<requirement type="Quests.Requirements.RequirementHolding" id="meleeWpnKnucklesT0LeatherKnuckles" phase="1"/>
-		<objective type="EntityKill" id="zombieJoe" value="50" phase="1"/>
-        <objective type="EntityKill" id="zombieMaleHazmat" value="50" phase="1"/>
+		<objective type="EntityKill" id="zombieJoe" value="30" phase="1"/>
+        <objective type="EntityKill" id="zombieMaleHazmat" value="30" phase="1"/>
 		
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>
@@ -927,8 +922,8 @@
 		<property name="shareable" value="false"/>
 		
 		<requirement type="Quests.Requirements.RequirementHolding" id="meleeWpnClubT1BaseballBat" phase="1"/>
-		<objective type="EntityKill" id="zombieInmateFeral" value="75" phase="1"/>
-        <objective type="EntityKill" id="zombieMoeFeral" value="75" phase="1"/>
+		<objective type="EntityKill" id="zombieInmateFeral" value="50" phase="1"/>
+        <objective type="EntityKill" id="zombieMoeFeral" value="50" phase="1"/>
 				
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>
@@ -960,8 +955,8 @@
 		<property name="shareable" value="false"/>
 		
 		<requirement type="Quests.Requirements.RequirementHolding" id="meleeWpnBatonT2StunBaton" phase="1"/>
-		<objective type="EntityKill" id="zombieInmateFeral" value="75" phase="1"/>
-        <objective type="EntityKill" id="zombieMoeFeral" value="75" phase="1"/>
+		<objective type="EntityKill" id="zombieSoldierRadiated" value="75" phase="1"/>
+        <objective type="EntityKill" id="zombieFatCopRadiated" value="75" phase="1"/>
 		
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>
@@ -1903,11 +1898,11 @@
 		
 		<requirement type="Quests.Requirements.RequirementHolding" id="meleeWpnBladeT1HuntingKnife" phase="1"/>
 		<objective type="EntityKill" id="zombieBusinessMan" value="100" phase="1"/>
-		<objective type="FetchKeep" id="resourceForgedIron" value="8" phase="1"/>
-		<objective type="FetchKeep" id="resourceWood" value="4" phase="1"/>
-		<objective type="FetchKeep" id="resourceLeather" value="2" phase="1"/>
-		<objective type="FetchKeep" id="resourceDuctTape" value="2" phase="1"/>
-		<objective type="Craft" id="meleeWpnBladeT1HuntingKnife" value="1" phase="1"/>
+		<objective type="FetchKeep" id="meleeWpnBladeT3MacheteParts" value="1" phase="1"/>
+		<objective type="FetchKeep" id="resourceForgedSteel" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceWood" value="10" phase="1"/>
+		<objective type="FetchKeep" id="resourceDuctTape" value="3" phase="1"/>
+		<objective type="Craft" id="meleeWpnBladeT3Machete" value="1" phase="1"/>
 		
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>
@@ -1938,12 +1933,7 @@
 		<property name="shareable" value="false"/>
 		
 		<requirement type="Quests.Requirements.RequirementHolding" id="gunBowT1WoodenBow" phase="1"/>
-		<objective type="EntityKill" id="zombieTomClarkFeral" value="200" phase="1"/>
-		<objective type="FetchKeep" id="gunBowT1WoodenBowParts" value="13" phase="1"/>
-		<objective type="FetchKeep" id="resourceForgedSteel" value="100" phase="1"/>
-		<objective type="FetchKeep" id="resourceDuctTape" value="13" phase="1"/>
-		<objective type="FetchKeep" id="resourceLeather" value="25" phase="1"/>
-		<objective type="Craft" id="gunBowT3CompoundCrossbow" value="1" phase="1"/>
+		<objective type="EntityKill" id="zombieTomClarkFeral" value="1000" phase="1"/>
 				
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>
@@ -1957,6 +1947,7 @@
 	
 				<reward type="Exp" value="1500" phase="1" />
 				<reward type="Item" id="gunBowT3CompoundCrossbow" value="1"/>
+				<reward type="Item" id="modGunMeleeRadRemover" value="1"/>
 				<reward type="Item" id="ammoArrowFlaming" value="1250"/>				
 				<reward type="Quest" id="challenge_assassin3" />
 	</quest>

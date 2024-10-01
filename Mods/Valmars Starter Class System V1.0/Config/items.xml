@@ -63,7 +63,7 @@
 <item name="challengeClassBuilder">
 	<property name="Extends" value="questMaster" />
 	<property class="Action0">
-		<property name="QuestGiven" value="challenge_hunter1" />
+		<property name="QuestGiven" value="challenge_builder1" />
 	</property>
 </item>
 <item name="challengeClassRifleman">
