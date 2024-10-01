@@ -109,12 +109,12 @@ veteran1_quest_offer,Quest,Challenge Info,,,"Dear veteran,\n\nIf you're reading 
 veteran2_quest,Quest,Challenge Info,,,veteran Quest,,
 veteran2_quest_offer,Quest,Challenge Info,,,"Dear veteran,\n\nIf you're reading this note, then I need you to kill 10 zombieInmate, 10 zombieMoe, 10 zombieLab, 10 zombieDarlene, 10 zombieYo and 20 zombieUtilityWorker with a T1 Hunting Knife\n\nIf you can do this I will reward you.",,
 veteran3_quest,Quest,Challenge Info,,,veteran Quest,,
-veteran3_quest_offer,Quest,Challenge Info,,,"Dear veteran,\n\nIf you're reading this note, then I need you to kill 5 zombieUtilityWorkerRadiated, 5 zombieBikerRadiated, 5 zombieLumberjackRadiated, 5 zombieFemaleFatRadiated, 5 zombieBowlerRadiated and 50 zombieArlene with a SMG5\n\nIf you can do this I will reward you.",,
+veteran3_quest_offer,Quest,Challenge Info,,,"Dear veteran,\n\nIf you're reading this note, then I need you to kill 5 zombieUtilityWorkerRadiated, 5 zombieBikerRadiated, 5 zombieLumberjackRadiated, 5 zombieFemaleFatRadiated, 5 zombieBowlerRadiated and 50 zombieArlene with a T1 Hunting Rifle\n\nIf you can do this I will reward you.",,
 
 miner1_quest,Quest,Challenge Info,,,miner Quest,,
 miner1_quest_offer,Quest,Challenge Info,,,"Dear miner,\n\nIf you're reading this note, then I need you to fetch 500 resourceRockSmall, 500 resourceScrapIron, 500 resourceScrapLead, 500 resourceCoal and 500 resourcePotassiumNitratePowder\n\nIf you can do this I will reward you.",,
 miner2_quest,Quest,Challenge Info,,,miner Quest,,
-miner2_quest_offer,Quest,Challenge Info,,,"Dear miner,\n\nIf you're reading this note, then I need you to fetch 1000 resourceRockSmall, 250 resourceOilShale, 1000 resourceScrapLead, 1000 resourceCoal , 10 zombieYo and 1500 resourcePotassiumNitratePowder with a T1 Iron Pickaxe\n\nIf you can do this I will reward you.",,
+miner2_quest_offer,Quest,Challenge Info,,,"Dear miner,\n\nIf you're reading this note, then I need you to fetch 1000 resourceRockSmall, 250 resourceOilShale, 1000 resourceScrapLead, 1000 resourceCoal and 1500 resourcePotassiumNitratePowder with a T1 Iron Pickaxe\n\nIf you can do this I will reward you.",,
 miner3_quest,Quest,Challenge Info,,,miner Quest,,
 miner3_quest_offer,Quest,Challenge Info,,,"Dear miner,\n\nIf you're reading this note, then I need you to fetch 1000 resourceRockSmall, 1000 resourceClayLump, 1500 resourceCobblestones. Then I want you to craft 150 resourceForgedIron, 100 resourceNail and 25 resourceForgedSteel\n\nIf you can do this I will reward you.",,
 
@@ -135,7 +135,7 @@ bruiser3_quest_offer,Quest,Challenge Info,,,"Dear bruiser,\n\nIf you're reading 
 medic1_quest,Quest,Challenge Info,,,medic Quest,,
 medic1_quest_offer,Quest,Challenge Info,,,"Dear medic,\n\nIf you're reading this note, then I need you to fetch 100 resourceCloth and then craft 10 medicalBandage\n\nIf you can do this I will reward you.",,
 medic2_quest,Quest,Challenge Info,,,medic Quest,,
-medic2_quest_offer,Quest,Challenge Info,,,"Dear medic,\n\nIf you're reading this note, then I need you to fetch 100 resourceCloth, 100 medicalAloeCream and then craft 100 medicalFirstAidBandages\n\nIf you can do this I will reward you.",,
+medic2_quest_offer,Quest,Challenge Info,,,"Dear medic,\n\nIf you're reading this note, then I need you to fetch 100 resourceCloth and 100 medicalAloeCream and then craft 100 medicalFirstAidBandages\n\nIf you can do this I will reward you.",,
 medic3_quest,Quest,Challenge Info,,,medic Quest,,
 medic3_quest_offer,Quest,Challenge Info,,,"Dear medic,\n\nIf you're reading this note, then I need you to fetch 100 medicalBloodBag, 100 drinkJarBeer, 500 medicalBandage and 100 resourceSewingKit. Then I want you to craft 100 medicalFirstAidKit\n\nIf you can do this I will reward you.",,
 
@@ -149,7 +149,7 @@ mechanic3_quest_offer,Quest,Challenge Info,,,"Dear mechanic,\n\nIf you're readin
 engineer1_quest,Quest,Challenge Info,,,engineer Quest,,
 engineer1_quest_offer,Quest,Challenge Info,,,"Dear engineer,\n\nIf you're reading this note, then I need you to fetch 12 resourceForgedIron, 4 resourceMechanicalParts and 2 resourceDuctTape and then craft 1 meleeToolSalvageT1Wrench\n\nIf you can do this I will reward you.",,
 engineer2_quest,Quest,Challenge Info,,,engineer Quest,,
-engineer2_quest_offer,Quest,Challenge Info,,,"Dear engineer,\n\nIf you're reading this note, then I need you to fetch 1 gunBotRoboticsParts, 40 resourceForgedSteel, 10 resourceDuctTape, 10 resourceSpring and 1500 resourceScrapLead and then craft 1 gunBotT2JunkTurret and 1 ammoJunkTurretRegular\n\nIf you can do this I will reward you.",,
+engineer2_quest_offer,Quest,Challenge Info,,,"Dear engineer,\n\nIf you're reading this note, then I need you to fetch 1 gunBotRoboticsParts, 40 resourceForgedSteel, 10 resourceDuctTape, 10 resourceSpring and 1500 resourceScrapLead and then craft 1 gunBotT2JunkTurret and 500 ammoJunkTurretRegular\n\nIf you can do this I will reward you.",,
 engineer3_quest,Quest,Challenge Info,,,engineer Quest,,
 engineer3_quest_offer,Quest,Challenge Info,,,"Dear engineer,\n\nIf you're reading this note, then I need you to fetch 8 resourceForgedIron, 22 resourceElectricParts, 2 resourceMechanicalParts and 2 resourceWood. Then I want you to craft 2 electrictimerrelay, 2 motionsensor and 2 tripwirepost\n\nIf you can do this I will reward you.",,
 
@@ -165,12 +165,12 @@ terrorist1_quest_offer,Quest,Challenge Info,,,"Dear terrorist,\n\nIf you're read
 terrorist2_quest,Quest,Challenge Info,,,terrorist Quest,,
 terrorist2_quest_offer,Quest,Challenge Info,,,"Dear terrorist,\n\nIf you're reading this note, then I need you to kill 10 zombieBusinessMan, 10 zombieNurse, 3 zombieSoldierFeral and 1 zombieFatCop with a T0 Pipe Machine Gun\n\nIf you can do this I will reward you.",,
 terrorist3_quest,Quest,Challenge Info,,,terrorist Quest,,
-terrorist3_quest_offer,Quest,Challenge Info,,,"Dear terrorist,\n\nIf you're reading this note, then I need you to kill 20 zombieInmate, 1 zombieDemolition, 2 zombieMutatedFeral and 1 zombieWightFeral. Then you need to fetch 7500 ammoGasCan, 25 resourceOil and 125 resourceCloth. Then I want you to craft 25 thrownAmmoMolotovCocktail\n\nIf you can do this I will reward you.",,
+terrorist3_quest_offer,Quest,Challenge Info,,,"Dear terrorist,\n\nIf you're reading this note, then I need you to kill 20 zombieInmate, 1 zombieDemolition, 2 zombieMutatedFeral and 1 zombieWightFeral with an ak47. Then you need to fetch 7500 ammoGasCan, 25 resourceOil and 125 resourceCloth. Then I want you to craft 25 Molotov Cocktails\n\nIf you can do this I will reward you.",,
 
 machinegunner1_quest,Quest,Challenge Info,,,machinegunner Quest,,
-machinegunner1_quest_offer,Quest,Challenge Info,,,"Dear machine gunner,\n\nIf you're reading this note, then I need you to kill 100 zombieJanitor. Then fetch 8 resourceMechanicalParts, 4 resourceWood, 2 resourceLeather and 2 resourceDuctTape and then craft 1 T1 Hunting Knife\n\nIf you can do this I will reward you.",,
+machinegunner1_quest_offer,Quest,Challenge Info,,,"Dear machine gunner,\n\nIf you're reading this note, then I need you to kill 100 zombieJanitor with a T1 Handgun. Then fetch 8 resourceMechanicalParts, 4 resourceWood, 2 resourceLeather and 2 resourceDuctTape and then craft 1 T1 Hunting Knife\n\nIf you can do this I will reward you.",,
 machinegunner2_quest,Quest,Challenge Info,,,machinegunner Quest,,
-machinegunner2_quest_offer,Quest,Challenge Info,,,"Dear machine gunner,\n\nIf you're reading this note, then I need you to kill 200 zombieJanitorFeral. Then Fetch 1 meleeWpnKnucklesT3SteelKnucklesParts, 1 meleeWpnBladeT3MacheteParts, 20 resourceForgedSteel, 3 resourceLeather, 10 resourceWood and 6 resourceDuctTape and then craft 1 meleeWpnKnucklesT3SteelKnuckles and 1 meleeWpnBladeT3Machete\n\nIf you can do this I will reward you.",,
+machinegunner2_quest_offer,Quest,Challenge Info,,,"Dear machine gunner,\n\nIf you're reading this note, then I need you to kill 200 zombieJanitorFeral with a ak47. Then Fetch 1 meleeWpnKnucklesT3SteelKnucklesParts, 1 meleeWpnBladeT3MacheteParts, 20 resourceForgedSteel, 3 resourceLeather, 10 resourceWood and 6 resourceDuctTape and then craft 1 meleeWpnKnucklesT3SteelKnuckles and 1 meleeWpnBladeT3Machete\n\nIf you can do this I will reward you.",,
 machinegunner3_quest,Quest,Challenge Info,,,machinegunner Quest,,
 machinegunner3_quest_offer,Quest,Challenge Info,,,"Dear machine gunner,\n\nIf you're reading this note, then I need you to kill 500 zombieSoldierRadiated and 100 zombieBikerFeral with a m360\n\nIf you can do this I will reward you.",,
 

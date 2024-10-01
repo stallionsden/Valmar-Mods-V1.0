@@ -58,10 +58,10 @@
     </recipe>
 	
 	<recipe name="classKey" count="1" craft_time="180" craft_area="forge" is_trackable="true" craft_tool="toolForgeCrucible" scrapable="False" >
-	<ingredient name="resourceForgedSteel" count="20" />
+	<ingredient name="resourceForgedSteel" count="5" />
 	<ingredient name="resourceScrapBrass" count="12" />
 	<ingredient name="resourceOil" count="24" />
-	<ingredient name="resourceLegendaryParts" count="3" />
+	<ingredient name="resourceLegendaryParts" count="1" />
     </recipe>
 	
 	<recipe name="smallEngine" count="1" >
