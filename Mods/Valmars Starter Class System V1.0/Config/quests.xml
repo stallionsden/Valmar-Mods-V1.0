@@ -1289,7 +1289,7 @@
 		<objective type="FetchKeep" id="resourceSpring" value="10" phase="1"/>
 		<objective type="FetchKeep" id="resourceScrapLead" value="1500" phase="1"/>
 		<objective type="Craft" id="gunBotT2JunkTurret" value="1" phase="1"/>
-		<objective type="Craft" id="ammoJunkTurretRegular" value="500" phase="1"/>
+		<objective type="Craft" id="ammoJunkTurretRegular" value="250" phase="1"/>
 				
 		<objective type="ReturnToNPC">
 			<property name="phase" value="2"/>
@@ -1320,6 +1320,7 @@
 		<objective type="FetchKeep" id="resourceElectricParts" value="22" phase="1"/>
 		<objective type="FetchKeep" id="resourceMechanicalParts" value="2" phase="1"/>
 		<objective type="FetchKeep" id="resourceWood" value="10" phase="1"/>
+		<objective type="Craft" id="ammoJunkTurretRegular" value="250" phase="1"/>
 		<objective type="Craft" id="electrictimerrelay" value="2" phase="1"/>
 		<objective type="Craft" id="motionsensor" value="2" phase="1"/>
 		<objective type="Craft" id="tripwirepost" value="2" phase="1"/>

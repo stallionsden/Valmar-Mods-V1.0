@@ -2,7 +2,7 @@
 <remove xpath="/lootcontainers/lootcontainer[@name='airDrop']"></remove>
 <insertAfter xpath="/lootcontainers/lootgroup[@name='groupAirDrop']">
 <!-- lootcontainer 34 Supply Crate General -->
-    <lootgroup name="SupplyMaterials" count="2,5">
+    <lootgroup name="AirDropMaterials" count="2,5">
         <item name="resourceScrapBrass" count="1,5" loot_prob_template="veryLow"/>
 		<item name="resourceFeather" count="1,5" loot_prob_template="veryLow"/>
 		<item name="resourceGunPowder" count="1,5" loot_prob_template="veryLow"/>
@@ -23,8 +23,8 @@
 		<item name="resourceOilShaleBundle" count="1,5" loot_prob_template="veryLow" />	
 		</lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyMaterials']">	
-    <lootgroup name="SupplySchematics" count="1,3">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropMaterials']">	
+    <lootgroup name="AirDropSchematics" count="1,3">
 		<item name="modArmorHelmetLightSchematic" count="1,1" loot_prob_template="veryLow"/>
 		<item name="modArmorBandolierSchematic" count="1,1" loot_prob_template="veryLow"/>
 		<item name="modArmorInsulatedLinerSchematic" count="1,1" loot_prob_template="veryLow"/>
@@ -79,8 +79,8 @@
 		<item name="modMeleeIronBreakerSchematic" count="1,1" loot_prob_template="veryLow"/>
 	</lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplySchematics']">
-	<lootgroup name="SupplyPerkBooks" count="1,3">	
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropSchematics']">
+	<lootgroup name="AirDropPerkBooks" count="1,3">	
 		<item name="bookRangersArrowRecovery" count="1,1" loot_prob_template="veryLow"/>
 		<item name="bookRangersCripplingShot" count="1,1" loot_prob_template="veryLow"/>
 		<item name="bookRangersKnockdown" count="1,1" loot_prob_template="veryLow"/>
@@ -195,8 +195,8 @@
 		<item name="bookTechJunkie7Hydraulics" count="1,1" loot_prob_template="veryLow"/>		
 		</lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyPerkBooks']">	
-	<lootgroup name="SupplyFood" count="1,3">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropPerkBooks']">	
+	<lootgroup name="AirDropFood" count="1,3">
 		<item name="foodCanBeef" count="1,5" loot_prob_template="veryLow" />
 		<item name="foodCanCatfood" count="1,5" loot_prob_template="veryLow" />
 		<item name="foodCanChicken" count="1,5" loot_prob_template="veryLow" />
@@ -227,8 +227,8 @@
 		<item name="drugSugarButts" count="1,5" loot_prob_template="veryLow" />		
 		</lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyFood']">	
-	<lootgroup name="SupplyCandy" count="0,2">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropFood']">	
+	<lootgroup name="AirDropCandy" count="0,2">
 		<item name="drugAtomJunkies" count="0,1" loot_prob_template="veryLow" />
 		<item name="drugCovertCats" count="0,1" loot_prob_template="veryLow" />
 		<item name="drugEyeKandy" count="0,1" loot_prob_template="veryLow" />
@@ -242,8 +242,8 @@
 		<item name="drugSugarButts" count="0,1" loot_prob_template="veryLow" />	
 		</lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyCandy']">
-	<lootgroup name="SupplyParts" count="1,3">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropCandy']">
+	<lootgroup name="AirDropParts" count="1,3">
 		<item name="gunMGT1AK47Parts" count="1,4" loot_prob_template="veryLow" />
 		<item name="gunHandgunT1PistolParts" count="1,4" loot_prob_template="veryLow" />
 		<item name="gunBowT1WoodenBowParts" count="1,4" loot_prob_template="veryLow" />
@@ -261,8 +261,8 @@
 		<item name="meleeToolAllSteelParts" count="1,4" loot_prob_template="veryLow" />
 	 </lootgroup>
 	</insertAfter>
-	 <insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyParts']">
-    <lootgroup name="SupplyWeapons" count="1,3">
+	 <insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropParts']">
+    <lootgroup name="AirDropWeapons" count="1,3">
 	   <item name="gunHandgunT0PipePistol" count="1,1" loot_prob_template="veryLow" />
 		<item name="gunShotgunT0PipeShotgun" count="1,1" loot_prob_template="veryLow" />
 		<item name="gunRifleT0PipeRifle" count="1,1" loot_prob_template="veryLow" />
@@ -291,8 +291,8 @@
 		<item name="gunBotT3JunkDrone" count="1,1" loot_prob_template="veryLow" />
 		</lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyWeapons']">	
-	<lootgroup name="Supplymedical" count="1,3">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropWeapons']">	
+	<lootgroup name="AirDropmedical" count="1,3">
         <item name="medicalFirstAidKit" count="1,5" loot_prob_template="veryLow" />
 		<item name="toolBeaker" count="1,5" loot_prob_template="veryLow" />
 		<item name="drugAntibiotics" count="1,5" loot_prob_template="veryLow" />
@@ -308,8 +308,8 @@
 		<item name="medicalSplint" count="1,5" loot_prob_template="veryLow" />
        </lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='Supplymedical']">
-	<lootgroup name="SupplyAmmo" count="1,3">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropmedical']">
+	<lootgroup name="AirDropAmmo" count="1,3">
         <item name="ammo9mmBulletBall" count="1,15" loot_prob_template="veryLow" />
         <item name="ammo9mmBulletHP" count="1,15" loot_prob_template="veryLow" />
         <item name="ammo9mmBulletAP" count="1,15" loot_prob_template="veryLow" />
@@ -339,8 +339,8 @@
         <item name="ammoCrossbowBoltExploding" count="1,15" loot_prob_template="veryLow" />
 		</lootgroup>
 	</insertAfter>	
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyAmmo']">	
-	<lootgroup name="SupplyAmmoBundles" count="1,3">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropAmmo']">	
+	<lootgroup name="AirDropAmmoBundles" count="1,3">
         <item name="ammoBundle9mmBulletBall" count="1,5" loot_prob_template="veryLow" />
 		<item name="ammoBundle9mmBulletHP" count="1,5" loot_prob_template="veryLow" />
         <item name="ammoBundle9mmBulletAP" count="1,5" loot_prob_template="veryLow" />
@@ -368,8 +368,8 @@
         <item name="ammoBundleCrossbowBoltExploding" count="1,5" loot_prob_template="veryLow" />
 	</lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyAmmoBundles']">
-    <lootgroup name="SupplyTools" count="1,3">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropAmmoBundles']">
+    <lootgroup name="AirDropTools" count="1,3">
         <item name="meleeToolSalvageT1Wrench" count="1,1" loot_prob_template="veryLow" />
         <item name="meleeToolRepairT0StoneAxe" count="1,1" loot_prob_template="veryLow" />
         <item name="meleeToolRepairT1ClawHammer" count="1,1" loot_prob_template="veryLow" />
@@ -387,8 +387,8 @@
 		<item name="meleeToolWireTool" count="1,1" loot_prob_template="veryLow" />
         </lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyTools']">
-    <lootgroup name="SupplyAutomotive" count="1,3">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropTools']">
+    <lootgroup name="AirDropAutomotive" count="1,3">
         <item name="vehicleBicycleChassis" count="1,1" loot_prob_template="veryLow" />
 		<item name="vehicleBicycleHandlebars" count="1,1" loot_prob_template="veryLow" />
 		<item name="vehicleWheels" count="1,1" loot_prob_template="veryLow" />
@@ -405,8 +405,8 @@
 		<item name="ammoGasCan" count="150,500" loot_prob_template="veryLow" />
         </lootgroup>
 	</insertAfter>	
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyAutomotive']">
-    <lootgroup name="SupplyMags" count="1,3">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropAutomotive']">
+    <lootgroup name="AirDropMags" count="1,3">
         <item name="bowsSkillMagazine" count="1,3" loot_prob_template="veryLow" />
 		<item name="spearsSkillMagazine" count="1,3" loot_prob_template="veryLow" />
 		<item name="clubsSkillMagazine" count="1,3" loot_prob_template="veryLow" />
@@ -432,8 +432,8 @@
 		<item name="trapsSkillMagazine" count="1,3" loot_prob_template="veryLow" />
         </lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyMags']">
-    <lootgroup name="SupplyArmor" count="1,3">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropMags']">
+    <lootgroup name="AirDropArmor" count="1,3">
         <item name="armorLumberjackHelmet" count="1,3" loot_prob_template="veryLow" /> 
 		<item name="armorLumberjackOutfit" count="1,3" loot_prob_template="veryLow" /> 
 		<item name="armorLumberjackGloves" count="1,3" loot_prob_template="veryLow" /> 
@@ -496,8 +496,8 @@
 		<item name="armorRaiderBoots" count="1,3" loot_prob_template="veryLow" />
         </lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyArmor']">
-	<lootgroup name="SupplyRewards" count="0,2">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropArmor']">
+	<lootgroup name="AirDropRewards" count="0,2">
 	<item name="questRewardT2FoodBundle" count="0,1" loot_prob_template="veryLow" />
 	<item name="questRewardT3FoodBundle" count="0,1" loot_prob_template="veryLow" />
 	<item name="questRewardT4FoodBundle" count="0,1" loot_prob_template="veryLow" />
@@ -524,8 +524,8 @@
 	<item name="questRewardT3RangedModsBundle" count="0,1" loot_prob_template="veryLow" />
 	 </lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyRewards']">
-	<lootgroup name="SupplyElectrical" count="1,2">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropRewards']">
+	<lootgroup name="AirDropElectrical" count="1,2">
 	<item name="resourceElectricParts" count="1,10" loot_prob_template="veryLow"/>
 	<item name="electricwirerelay" count="1,5" loot_prob_template="veryLow"/>
 	<item name="electrictimerrelay" count="0,2" loot_prob_template="veryLow"/>
@@ -538,43 +538,43 @@
 	<item name="generatorbank" count="0,1" loot_prob_template="veryLow"/>	
 	 </lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyElectrical']">	
-    <lootgroup name="SupplyGroups" count="2,4">
-		<item group="SupplyMaterials" count="0,1" loot_prob_template="veryLow" />
-        <item group="SupplyFood" count="0,1" loot_prob_template="veryLow" />
-		<item group="SupplyCandy" count="0,1" loot_prob_template="veryLow" />
-        <item group="SupplyWeapons" count="0,1" loot_prob_template="veryLow" />
-        <item group="SupplySchematics" count="0,1" loot_prob_template="veryLow" />
-		<item group="SupplyPerkBooks" count="0,1" loot_prob_template="veryLow" />
-		<item group="Supplymedical" count="0,1" loot_prob_template="veryLow" />
-		<item group="SupplyParts" count="0,1" loot_prob_template="veryLow" />
-        <item group="SupplyAutomotive" count="0,1" loot_prob_template="veryLow" />
-        <item group="SupplyAmmo" count="0,1" loot_prob_template="veryLow" />		
-		<item group="SupplyAmmoBundles" count="0,1" loot_prob_template="veryLow" />
-		<item group="SupplyRewards" count="0,1" loot_prob_template="veryLow" />
-		<item group="SupplyElectrical" count="0,1" loot_prob_template="veryLow" />
-        <item group="SupplyTools" count="0,1" loot_prob_template="veryLow" />
-		<item group="SupplyMags" count="0,1" loot_prob_template="veryLow" />
-		<item group="SupplyArmor" count="0,1" loot_prob_template="veryLow" />
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropElectrical']">	
+    <lootgroup name="AirDropGroups" count="2,4">
+		<item group="AirDropMaterials" count="0,1" loot_prob_template="veryLow" />
+        <item group="AirDropFood" count="0,1" loot_prob_template="veryLow" />
+		<item group="AirDropCandy" count="0,1" loot_prob_template="veryLow" />
+        <item group="AirDropWeapons" count="0,1" loot_prob_template="veryLow" />
+        <item group="AirDropSchematics" count="0,1" loot_prob_template="veryLow" />
+		<item group="AirDropPerkBooks" count="0,1" loot_prob_template="veryLow" />
+		<item group="AirDropmedical" count="0,1" loot_prob_template="veryLow" />
+		<item group="AirDropParts" count="0,1" loot_prob_template="veryLow" />
+        <item group="AirDropAutomotive" count="0,1" loot_prob_template="veryLow" />
+        <item group="AirDropAmmo" count="0,1" loot_prob_template="veryLow" />		
+		<item group="AirDropAmmoBundles" count="0,1" loot_prob_template="veryLow" />
+		<item group="AirDropRewards" count="0,1" loot_prob_template="veryLow" />
+		<item group="AirDropElectrical" count="0,1" loot_prob_template="veryLow" />
+        <item group="AirDropTools" count="0,1" loot_prob_template="veryLow" />
+		<item group="AirDropMags" count="0,1" loot_prob_template="veryLow" />
+		<item group="AirDropArmor" count="0,1" loot_prob_template="veryLow" />
     </lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyGroups']">
-    <lootgroup name="SupplyGeneric" count="all">
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropGroups']">
+    <lootgroup name="AirDropGeneric" count="all">
         <item group="groupQuestArmorT1"/>
         <item group="seeds" count="1,5" loot_prob_template="veryLow" />
         <item group="booksAllScaled" count="1,5" loot_prob_template="veryLow" />
        </lootgroup>
 	</insertAfter>
-	<insertAfter xpath="/lootcontainers/lootgroup[@name='SupplyGeneric']">
-    <lootgroup name="SupplyCrate" count="all">
-        <item group="SupplyGeneric"/>
-        <item group="SupplyGroups"/>
+	<insertAfter xpath="/lootcontainers/lootgroup[@name='AirDropGeneric']">
+    <lootgroup name="AirDropCrate" count="all">
+        <item group="AirDropGeneric"/>
+        <item group="AirDropGroups"/>
     </lootgroup>
 </insertAfter>
 
 <insertAfter xpath="/lootcontainers/lootcontainer[@name='playerFileCabinet']" >	
 	<lootcontainer name="airDrop" count="2" size="9,9" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate">
-     <item group="SupplyCrate"/>
+     <item group="AirDropCrate"/>
 	 <item group="groupAirDrop"/>
     </lootcontainer>			
 </insertAfter> 
