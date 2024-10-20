@@ -1,21 +1,27 @@
 <Valmar>
 <append xpath="/recipes">
-<recipe name="AutoWall:Wood" count="1" craft_time="6">
+<recipe name="AutoWall:WoodBlock" count="1" craft_time="6" tags="learnable">
     <ingredient name="woodShapes:VariantHelper" count="6"/>
     <ingredient name="resourceWood" count="12"/>
 	<ingredient name="resourceClayLump" count="24"/>
     <ingredient name="resourceMechanicalParts" count="6"/>
 </recipe>
 
-<recipe name="AutoWall:Concrete" count="1" craft_time="48">
+<recipe name="AutoWall:ConcreteBlock" count="1" craft_time="48" tags="learnable">
 	<ingredient name="concreteShapes:VariantHelper" count="6"/>
     <ingredient name="resourceConcreteMix" count="60"/>
     <ingredient name="resourceMechanicalParts" count="6"/>
 </recipe>
 
-<recipe name="AutoWall:cobblestoneBlock" count="1" craft_time="20">
+<recipe name="AutoWall:CobblestoneBlock" count="1" craft_time="20" tags="learnable">
     <ingredient name="cobblestoneShapes:VariantHelper" count="6"/>
     <ingredient name="resourceCobblestones" count="24"/>
+    <ingredient name="resourceMechanicalParts" count="6"/>
+</recipe>
+
+<recipe name="AutoWall:SteelBlock" count="1" craft_time="77" tags="learnable">
+    <ingredient name="steelShapes:VariantHelper" count="6"/>
+    <ingredient name="resourceForgedSteel" count="80"/>
     <ingredient name="resourceMechanicalParts" count="6"/>
 </recipe>
 </append>

@@ -1,34 +1,52 @@
 <Valmar>
 	<append xpath="/items">
-	<item name="AutoWall:WoodSchematic">
+	<item name="AutoWall:WoodBlockSchematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="CreativeMode" value="Player"/>
+	<property name="ItemTypeIcon" value="book"/>
+	<property name="AltItemTypeIcon" value="book_read"/>
 	<property name="CustomIcon" value="skillbookBlacksmith"/>
-	<property name="Unlocks" value="AutoWall:Wood"/>
+	<property name="Unlocks" value="AutoWall:WoodBlock"/>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AutoWall:Wood" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AutoWall:WoodBlock" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>
-	<item name="AutoWall:ConcreteSchematic">
+	<item name="AutoWall:ConcreteBlockSchematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="CreativeMode" value="Player"/>
 	<property name="CustomIcon" value="skillbookBuilding"/>
-	<property name="Unlocks" value="AutoWall:Concrete"/>
+	<property name="ItemTypeIcon" value="book"/>
+	<property name="AltItemTypeIcon" value="book_read"/>
+	<property name="Unlocks" value="AutoWall:ConcreteBlock"/>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AutoWall:Concrete" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AutoWall:ConcreteBlock" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>
-	<item name="AutoWall:cobblestoneBlockSchematic">
+	<item name="AutoWall:CobblestoneBlockSchematic">
 	<property name="Extends" value="schematicMaster"/>
 	<property name="CreativeMode" value="Player"/>
 		<property name="CustomIcon" value="recipebookPottery"/>
-	<property name="Unlocks" value="AutoWall:cobblestoneBlock"/>
+		<property name="ItemTypeIcon" value="book"/>
+	<property name="AltItemTypeIcon" value="book_read"/>
+	<property name="Unlocks" value="AutoWall:CobblestoneBlock"/>
 	<effect_group tiered="false">
-		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AutoWall:cobblestoneBlock" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AutoWall:CobblestoneBlock" operation="set" value="1"/>
 		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 	</effect_group>
 </item>	
+	<item name="AutoWall:SteelBlockSchematic">
+	<property name="Extends" value="schematicMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="skillbookBlacksmith"/>
+	<property name="ItemTypeIcon" value="book"/>
+	<property name="AltItemTypeIcon" value="book_read"/>
+	<property name="Unlocks" value="AutoWall:SteelBlock"/>
+	<effect_group tiered="false">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="AutoWall:SteelBlock" operation="set" value="1"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+	</effect_group>
+</item>
 	</append>
 </Valmar>

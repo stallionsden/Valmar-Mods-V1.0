@@ -1,0 +1,9 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+AutoWall:WoodBlock,blocks,block,,,AutoWall Wood Block,,,,,
+AutoWall:ConcreteBlock,blocks,block,,,AutoWall Concrete Block,,,,,
+AutoWall:CobblestoneBlock,blocks,block,,,AutoWall Cobblestone Block,,,,,
+AutoWall:SteelBlock,blocks,block,,,AutoWall Steel Block,,,,,
+AutoWall:WoodBlockSchematic,item,items,,,AutoWall Wood Block Schematic,,
+AutoWall:ConcreteBlockSchematic,item,items,,,AutoWall Concrete Block Schematic,,
+AutoWall:CobblestoneBlockSchematic,item,items,,,AutoWall Cobblestone Block Schematic,,
+AutoWall:SteelBlockSchematic,item,items,,,AutoWall Steel Block Schematic,,
