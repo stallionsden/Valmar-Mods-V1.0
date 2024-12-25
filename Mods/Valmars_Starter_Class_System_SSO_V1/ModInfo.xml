@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+       <Name value="Valmars_Starter_Class_System_SSO_V1"/>
+		<Author value="Valmar"/>
+		<Description value="Adds Starter classes to the game. This Version is Serverside Only"/>
+		<DisplayName value="Valmars Starter Class System V1"/>
+		<Version value="1.2.1.1"/>
+		<Website value=""/>
+</xml>
