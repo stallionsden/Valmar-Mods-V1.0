@@ -23,10 +23,7 @@
 	<property name="HeatMapStrength" value="5"/>
 	<property name="HeatMapTime" value="5000"/>
 	<property name="HeatMapFrequency" value="1000"/>
-	<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
-	<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
-		<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
-		<property class="Workstation">
+	<property class="Workstation">
 			<property name="Modules" value="tools,output,fuel,input"/>
 		    <property name="Collide" value="melee,bullet,arrow,rocket"/>
 			<property name="CraftingAreaRecipes" value="campfire" />
@@ -75,10 +72,7 @@
 	<property name="HeatMapStrength" value="5"/>
 	<property name="HeatMapTime" value="5000"/>
 	<property name="HeatMapFrequency" value="1000"/>
-	<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
-	<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
-		<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
-		<property class="Workstation">
+	<property class="Workstation">
 			<property name="Modules" value="tools,output,fuel,input"/>
 		    <property name="Collide" value="melee,bullet,arrow,rocket"/>
 			<property name="CraftingAreaRecipes" value="campfire" />
@@ -127,10 +121,7 @@
 	<property name="HeatMapStrength" value="5"/>
 	<property name="HeatMapTime" value="5000"/>
 	<property name="HeatMapFrequency" value="1000"/>
-	<property name="BuffsWhenWalkedOn" value="buffBurningEnvironment"/>
-	<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>
-		<property name="ActiveRadiusEffects" value="+heatSource(3)"/>
-		<property class="Workstation">
+	<property class="Workstation">
 			<property name="Modules" value="tools,output,fuel,input"/>
 		    <property name="Collide" value="melee,bullet,arrow,rocket"/>
 			<property name="CraftingAreaRecipes" value="campfire" />
